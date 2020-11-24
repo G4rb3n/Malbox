@@ -1,0 +1,27 @@
+#! /bin/bash
+
+set -e
+
+[ -x /usr/bin/updatedb.mlocate ] || exit 0
+
+if which on_ac_power >/dev/null 2>&1; then
+    ON_BATTERY=0
+    on_ac_power >/dev/null 2>&1 || ON_BATTERY=$?
+    if [ "$ON_BATTERY" -eq 1 ]; then
+	exit 0
+    fi
+fi
+
+# See ionice(1)
+if [ -x /usr/bin/ionice ] &&
+    /usr/bin/ionice -c3 true 2>/dev/null; then
+    IONICE="/usr/bin/ionice -c3"
+fi
+
+# See nocache(1)
+NOCACHE=
+if [ -x /usr/bin/nocache ]; then
+    NOCACHE="/usr/bin/nocache"
+fi
+
+flock --nonblock /run/mlocate.daily.lock $NOCACHE $IONICE nice /usr/bin/updatedb.mlocate

