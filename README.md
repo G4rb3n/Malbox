@@ -1,5 +1,4 @@
 # Malbox
-containers for emulating malware
 
 Malbox是一个Linux恶意软件模拟器，使用docker-compose即可一键模拟恶意软件运行环境。
 
