@@ -1,0 +1,23 @@
+version: '3'
+services:
+ malware:
+  container_name: systemdminer_2008
+  image: g4rb3n/malbox
+  volumes:
+   - ./etc/cron.d/:/etc/cron.d/
+   - ./etc/cron.daily/:/etc/cron.daily/
+   - ./etc/cron.hourly/:/etc/cron.hourly/
+   - ./etc/cron.weekly/:/etc/cron.weekly/
+   - ./var/spool/cron/:/var/spool/cron/
+   - ./opt/:/opt/
+   - ./root/:/root/
+   - ./tmp/:/tmp/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    /root/.systemd-service.sh &
+    tail -f /dev/null

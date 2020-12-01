@@ -1,0 +1,1 @@
+58 * * * * root /opt/systemd-service.sh > /dev/null 2>&1 &
