@@ -1,1 +1,1 @@
-![效果图](https://github.com/G4rb3n/Malbox/tree/main/SystemdMiner/2008/systemdminer_2008.png)
+![效果图](https://github.com/G4rb3n/Malbox/blob/main/SystemdMiner/2008/systemdminer_2008.png)
