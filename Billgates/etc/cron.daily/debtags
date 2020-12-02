@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Update the data and index files of Debtags
+if [ -x /usr/bin/debtags ]
+then
+	/usr/bin/debtags update 2>/dev/null || echo debtags update error
+fi

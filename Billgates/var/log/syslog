@@ -1,0 +1,13 @@
+Dec  1 21:28:16 kali rsyslogd: [origin software="rsyslogd" swVersion="8.1911.0" x-pid="544" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Dec  1 21:28:16 kali rsyslogd: [origin software="rsyslogd" swVersion="8.1911.0" x-pid="544" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Dec  1 21:28:16 kali systemd[1]: logrotate.service: Succeeded.
+Dec  1 21:28:16 kali systemd[1]: Started Rotate log files.
+Dec  1 21:28:17 kali systemd[1]: man-db.service: Succeeded.
+Dec  1 21:28:17 kali systemd[1]: Started Daily man-db regeneration.
+Dec  1 21:28:17 kali systemd[1]: apt-daily.service: Succeeded.
+Dec  1 21:28:17 kali systemd[1]: Started Daily apt download activities.
+Dec  1 21:28:17 kali systemd[1]: Starting Daily apt upgrade and clean activities...
+Dec  1 21:28:17 kali systemd[1]: apt-daily-upgrade.service: Succeeded.
+Dec  1 21:28:17 kali systemd[1]: Started Daily apt upgrade and clean activities.
+Dec  1 21:28:18 kali systemd[1]: e2scrub_all.service: Succeeded.
+Dec  1 21:28:18 kali systemd[1]: Started Online ext4 Metadata Check for All Filesystems.

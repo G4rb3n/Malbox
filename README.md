@@ -23,8 +23,15 @@ docker-compose up -d
 docker exec -it [container_name] /bin/bash
 ```
 
-分析完毕后，可一键清除容器
+分析完毕后，可一键清除容器。
 
 ```
 docker-compose down
+```
+
+malbox.sh为采集脚本，可以一键打包中毒主机的病毒项，自动构建容器环境。
+
+```
+chmod 777 malbox.sh
+./malbox.sh
 ```
