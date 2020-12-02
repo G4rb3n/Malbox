@@ -1,1 +1,0 @@
-![效果图](https://github.com/G4rb3n/Malbox/blob/main/Billgates/billgates.png)
