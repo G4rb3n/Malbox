@@ -1,0 +1,19 @@
+version: '3'
+services:
+ malware:
+  container_name: [malware_name]
+  image: g4rb3n/malbox
+  volumes:
+   - ./etc/cron.hourly/:/etc/cron.hourly/
+   - ./etc/init.d/nsportzsmt:/etc/init.d/nsportzsmt
+   - ./lib/udev/udev:/lib/udev/udev
+   - ./boot/nsportzsmt:/boot/nsportzsmt
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    /etc/init.d/nsportzsmt &
+    tail -f /dev/null
