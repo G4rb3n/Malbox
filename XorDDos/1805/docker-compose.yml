@@ -1,7 +1,7 @@
 version: '3'
 services:
  malware:
-  container_name: [malware_name]
+  container_name: xorddos_1805
   image: g4rb3n/malbox
   volumes:
    - ./etc/cron.hourly/:/etc/cron.hourly/

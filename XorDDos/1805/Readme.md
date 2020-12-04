@@ -1,0 +1,1 @@
+![效果图](https://github.com/G4rb3n/Malbox/blob/main/XorDDos/1805/xorddos.png)
