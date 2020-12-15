@@ -1,0 +1,47 @@
+Dec 14 20:34:27 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2004.0" x-pid="547" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Dec 14 20:34:27 kali systemd[1]: logrotate.service: Succeeded.
+Dec 14 20:34:27 kali systemd[1]: Finished Rotate log files.
+Dec 14 20:34:28 kali systemd[1]: man-db.service: Succeeded.
+Dec 14 20:34:28 kali systemd[1]: Finished Daily man-db regeneration.
+Dec 14 20:35:23 kali CRON[4954]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Dec 14 20:39:01 kali systemd[1]: Starting Clean php session files...
+Dec 14 20:39:01 kali CRON[4984]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Dec 14 20:39:01 kali systemd[1]: phpsessionclean.service: Succeeded.
+Dec 14 20:39:01 kali systemd[1]: Finished Clean php session files.
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9503] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9504] dhcp4 (eth0): option domain_name          => 'localdomain'
+Dec 14 20:39:49 kali dbus-daemon[542]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.2' (uid=0 pid=543 comm="/usr/sbin/NetworkManager --no-daemon ")
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9505] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9505] dhcp4 (eth0): option expiry               => '1607998189'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9506] dhcp4 (eth0): option ip_address           => '192.168.0.103'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9506] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9506] dhcp4 (eth0): option requested_broadcast_address => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9507] dhcp4 (eth0): option requested_domain_name => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9507] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9507] dhcp4 (eth0): option requested_domain_search => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9508] dhcp4 (eth0): option requested_host_name  => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9508] dhcp4 (eth0): option requested_interface_mtu => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9508] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9508] dhcp4 (eth0): option requested_nis_domain => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9509] dhcp4 (eth0): option requested_nis_servers => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9509] dhcp4 (eth0): option requested_ntp_servers => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9509] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9509] dhcp4 (eth0): option requested_root_path  => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9509] dhcp4 (eth0): option requested_routers    => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9510] dhcp4 (eth0): option requested_static_routes => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9510] dhcp4 (eth0): option requested_subnet_mask => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9510] dhcp4 (eth0): option requested_time_offset => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9510] dhcp4 (eth0): option requested_wpad       => '1'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9510] dhcp4 (eth0): option routers              => '192.168.0.2'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9511] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Dec 14 20:39:49 kali NetworkManager[543]: <info>  [1607996389.9511] dhcp4 (eth0): state changed extended -> extended
+Dec 14 20:39:49 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Dec 14 20:39:50 kali dbus-daemon[542]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Dec 14 20:39:50 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Dec 14 20:40:00 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Dec 14 20:40:09 kali crontab[5035]: (root) LIST (root)
+Dec 14 20:42:00 kali dbus-daemon[810]: [session uid=0 pid=810] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.21' (uid=0 pid=917 comm="Thunar --daemon ")
+Dec 14 20:42:02 kali org.freedesktop.thumbnails.Cache1[5043]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Dec 14 20:42:02 kali org.freedesktop.thumbnails.Cache1[5043]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Dec 14 20:42:02 kali org.freedesktop.thumbnails.Cache1[5043]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Dec 14 20:42:03 kali dbus-daemon[810]: [session uid=0 pid=810] Successfully activated service 'org.freedesktop.thumbnails.Cache1'

@@ -1,0 +1,26 @@
+version: '3'
+services:
+ malware:
+  container_name: sysupdateminer_2004
+  image: g4rb3n/malbox
+  volumes:
+   - ./var/spool/cron/crontabs/root:/var/spool/cron/crontabs/root
+   - ./root/init.sh:/root/init.sh
+   - ./etc/config.json:/etc/config.json
+   - ./etc/networkservice:/etc/networkservice
+   - ./etc/sysguard:/etc/sysguard
+   - ./etc/sysupdate:/etc/sysupdate
+   - ./etc/sysupdates:/etc/sysupdates
+   - ./etc/update.sh:/etc/update.sh
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    /etc/update.sh &
+    /etc/networkservice &
+    /etc/sysguard &
+    /etc/sysupdate &
+    tail -f /dev/null

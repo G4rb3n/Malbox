@@ -1,0 +1,1 @@
+![效果图](https://github.com/G4rb3n/Malbox/blob/main/SysupdataMiner/2004/systemdminer_2004.png)
