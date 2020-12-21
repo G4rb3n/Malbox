@@ -1,0 +1,87 @@
+{
+    "access-log-file": null,
+    "access-password": null,
+    "algo-ext": true,
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        {
+            "host": "0.0.0.0",
+            "port": 3333,
+            "tls": false
+        },
+        {
+            "host": "::",
+            "port": 3333,
+            "tls": false
+        }
+    ],
+    "colors": true,
+    "title": true,
+    "custom-diff": 0,
+    "custom-diff-stats": false,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "algo": null,
+            "coin": "monero",
+            "url": "sg.minexmr.com:3333",
+            "user": "4AF2v4knpBL7MHTX6gxDvBWS4ma969UZegxio54TWKvgYDMFEHNkEFNZ2QuWk15Bwsfy9JPhFrgJY9hN7C1X92GBU9dzdMa",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null
+        },
+        {
+            "algo": null,
+            "coin": "monero",
+            "url": "pool.supportxmr.com:3333",
+            "user": "4AF2v4knpBL7MHTX6gxDvBWS4ma969UZegxio54TWKvgYDMFEHNkEFNZ2QuWk15Bwsfy9JPhFrgJY9hN7C1X92GBU9dzdMa",
+            "pass": "x",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "tls": {
+        "enabled": true,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "user-agent": null,
+    "syslog": false,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}

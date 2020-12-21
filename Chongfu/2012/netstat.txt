@@ -1,0 +1,9 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:3333            0.0.0.0:*               LISTEN      1833/proxy          
+tcp        0      1 192.168.0.103:42884     67.198.209.110:25000    SYN_SENT    1605/wanddo1        
+tcp        0      0 127.0.0.1:3333          127.0.0.1:58764         ESTABLISHED 1833/proxy          
+tcp        0      0 192.168.0.103:52004     139.99.68.128:3333      ESTABLISHED 1833/proxy          
+tcp        0      0 127.0.0.1:58764         127.0.0.1:3333          ESTABLISHED 1948/wanwakuang     
+tcp        0      0 192.168.0.103:39628     67.198.209.110:99       ESTABLISHED 1617/wanddo2        
+tcp6       0      0 :::3333                 :::*                    LISTEN      1833/proxy          
