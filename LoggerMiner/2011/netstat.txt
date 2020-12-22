@@ -1,0 +1,17 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      10385/sshd: /usr/sb 
+tcp        0      0 0.0.0.0:33768           0.0.0.0:*               LISTEN      10385/sshd: /usr/sb 
+tcp        0      0 192.168.0.102:56346     139.162.124.27:7738     ESTABLISHED -                   
+tcp        0      0 192.168.0.102:52030     139.99.124.170:3333     ESTABLISHED -                   
+tcp        0      0 192.168.0.102:43576     139.99.125.38:3333      TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:52014     139.99.124.170:3333     TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:56334     139.162.124.27:7738     TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:43584     139.99.125.38:3333      TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:52020     139.99.124.170:3333     TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:52024     139.99.124.170:3333     TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:43580     139.99.125.38:3333      TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:56330     139.162.124.27:7738     TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:56328     139.162.124.27:7738     TIME_WAIT   -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      10385/sshd: /usr/sb 
+tcp6       0      0 :::33768                :::*                    LISTEN      10385/sshd: /usr/sb 

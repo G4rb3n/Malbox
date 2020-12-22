@@ -1,0 +1,20 @@
+version: '3'
+services:
+ malware:
+  container_name: loggerminer_2011
+  image: g4rb3n/malbox
+  volumes:
+   - ./var/tmp/:/var/tmp/
+   - ./var/spool/cron/:/var/spool/cron/
+   - ./opt/:/opt/
+   - ./root/:/root/
+   - ./tmp/:/tmp/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    /root/xanthe &
+    tail -f /dev/null

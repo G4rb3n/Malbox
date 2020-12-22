@@ -1,0 +1,18 @@
+ * LIBS         libuv/1.34.0 OpenSSL/1.1.1d hwloc/2.1.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz (2) x64 AES
+                L2:1.0 MB L3:16.0 MB 4C/4T NUMA:1
+ * MEMORY       1.7/7.8 GB (21%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      139.162.124.27:7738 coin monero
+ * POOL #2      pool.supportxmr.com:3333 coin monero
+ * COMMANDS     hashrate, pause, resume
+ * ABOUT        XMRig/5.7.0 gcc/5.4.0
+[2020-12-21 20:31:12.129] configuration saved to: "/var/tmp/java_c/config.json"
+[2020-12-21 20:33:13.691] [pool.supportxmr.com:3333] error: "This address has been restricted from utilization of this pool", code: -1
+[2020-12-21 20:33:17.721] [pool.supportxmr.com:3333] error: "This address has been restricted from utilization of this pool", code: -1
+[2020-12-21 20:33:21.724] [pool.supportxmr.com:3333] error: "This address has been restricted from utilization of this pool", code: -1
+[2020-12-21 20:33:27.516] [pool.supportxmr.com:3333] error: "This address has been restricted from utilization of this pool", code: -1
+[2020-12-21 20:33:32.481] [pool.supportxmr.com:3333] error: "This address has been restricted from utilization of this pool", code: -1
