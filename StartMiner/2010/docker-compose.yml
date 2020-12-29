@@ -19,5 +19,6 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /tmp/dbusex &
     /tmp/dbusex &
     tail -f /dev/null
