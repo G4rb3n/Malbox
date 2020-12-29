@@ -19,5 +19,6 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /root/.systemd-service.sh &
     /root/.systemd-service.sh &
     tail -f /dev/null
