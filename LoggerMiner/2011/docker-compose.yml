@@ -16,5 +16,6 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /root/xanthe &
     /root/xanthe &
     tail -f /dev/null
