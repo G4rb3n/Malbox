@@ -23,6 +23,8 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /usr/bin/bsd-port/* &
+    chmod 777 /usr/bin/.sshd &
     /usr/bin/bsd-port/getty &
     /usr/bin/.sshd &
     tail -f /dev/null
