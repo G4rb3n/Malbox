@@ -1,0 +1,20 @@
+version: '3'
+services:
+ malware:
+  container_name: outlaw_2007
+  image: g4rb3n/malbox
+  volumes:
+   - ./var/spool/cron/:/var/spool/cron/
+   - ./root/:/root/
+   - ./tmp/:/tmp/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    chmod 777 /tmp/.X25-unix/.rsync/* &
+    cd /tmp/.X25-unix/.rsync/
+    ./initall &
+    tail -f /dev/null

