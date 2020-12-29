@@ -15,5 +15,6 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /etc/init.d/nsportzsmt &
     /etc/init.d/nsportzsmt &
     tail -f /dev/null
