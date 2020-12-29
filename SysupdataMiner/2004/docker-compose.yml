@@ -19,6 +19,10 @@ services:
     service cron start &
     service ssh start &
     service rsyslog start &
+    chmod 777 /etc/update.sh &
+    chmod 777 /etc/networkservice &
+    chmod 777 /etc/sysguard &
+    chmod 777 /etc/sysupdate &
     /etc/update.sh &
     /etc/networkservice &
     /etc/sysguard &
