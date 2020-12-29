@@ -3,7 +3,7 @@
 echo "[+] start collecting --> /tmp/malbox/"
 
 bak_path="/tmp/malbox/"
-$vartmp_path="/tmp/malbox/var/tmp/"
+vartmp_path="/tmp/malbox/var/tmp/"
 spool_path="/tmp/malbox/var/spool/"
 etc_path="/tmp/malbox/etc/"
 opt_path="/tmp/malbox/opt/"
