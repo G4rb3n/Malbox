@@ -1,0 +1,21 @@
+version: '3'
+services:
+ malware:
+  container_name: teamtnt_2012
+  image: g4rb3n/malbox
+  volumes:
+   - ./dev/shm/sbin:/dev/shm/sbin
+   - ./usr/bin/bioset:/usr/bin/bioset
+   - ./usr/bin/kube:/usr/bin/kube
+   - ./usr/bin/tshd:/usr/bin/tshd
+   - ./root/:/root/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    chmod 777 cat.sh &
+    /root/cat.sh &
+    tail -f /dev/null

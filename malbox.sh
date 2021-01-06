@@ -3,7 +3,7 @@
 echo "[+] start collecting --> /tmp/malbox/"
 
 bak_path="/tmp/malbox/"
-vartmp_path="/tmp/malbox/var/tmp/"
+var_path="/tmp/malbox/var/"
 spool_path="/tmp/malbox/var/spool/"
 etc_path="/tmp/malbox/etc/"
 opt_path="/tmp/malbox/opt/"
@@ -16,11 +16,11 @@ echo "[+] backup list --> [ /var/spool/cron/, /etc/cron.d/, /etc/cron.hourly/, /
 
 mkdir ./tmp/
 cp -rfp /tmp/* ./tmp/ > /dev/null 2>&1
-mkdir -p $bak_path $vartmp_path $spool_path $etc_path $opt_path $root_path $syslog_path $audit_path
+mkdir -p $bak_path $var_path $spool_path $etc_path $opt_path $root_path $syslog_path $audit_path
 touch $docker_compose_path
 
 mv ./tmp/ $bak_path
-cp -rfp /var/tmp/ $vartmp_path
+cp -rfp /var/tmp/ $var_path
 cp -rfp /var/spool/cron/ $spool_path
 cp -rfp /etc/cron.d/ $etc_path
 cp -rfp /etc/cron.hourly/ $etc_path

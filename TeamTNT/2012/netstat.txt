@@ -1,0 +1,23 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      2140/sshd: /usr/sbi 
+tcp        0      0 0.0.0.0:1982            0.0.0.0:*               LISTEN      4899/systemd        
+tcp        0      0 0.0.0.0:51982           0.0.0.0:*               LISTEN      4913/bioset         
+tcp        0      0 192.168.0.102:38428     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38442     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38486     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38496     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38456     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38504     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38438     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38490     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38508     164.68.106.96:6697      ESTABLISHED 4854/kube           
+tcp        0      0 192.168.0.102:38448     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38452     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38506     164.68.106.96:6697      ESTABLISHED 4885/sbin           
+tcp        0      0 192.168.0.102:38478     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:43402     18.180.72.219:443       ESTABLISHED 4856/kthreadd       
+tcp        0      0 192.168.0.102:38460     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38432     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp        0      0 192.168.0.102:38466     164.68.106.96:6697      CLOSE_WAIT  4885/sbin           
+tcp6       0      0 :::22                   :::*                    LISTEN      2140/sshd: /usr/sbi 
