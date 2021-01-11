@@ -1,0 +1,12 @@
+[Unit]
+Description=Start daemon at boot time
+After=
+Requires=
+[Service]
+Type=forking
+RestartSec=10s
+Restart=always
+TimeoutStartSec=5
+ExecStart=/etc/kinsing
+[Install]
+WantedBy=multi-user.target

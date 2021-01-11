@@ -1,0 +1,4 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      2140/sshd: /usr/sbi 
+tcp6       0      0 :::31458                :::*                    LISTEN      2961/kinsing        

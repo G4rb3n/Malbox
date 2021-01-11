@@ -1,0 +1,21 @@
+version: '3'
+services:
+ malware:
+  container_name: h2miner_2012
+  image: g4rb3n/malbox
+  volumes:
+   - ./etc/kinsing:/etc/kinsing
+   - ./etc/libsystem.so:/etc/libsystem.so
+   - ./var/spool/cron/:/var/spool/cron/
+   - ./lib/systemd/system/bot.service:/lib/systemd/system/bot.service
+   - ./root/:/root/
+   - ./tmp/:/tmp/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    /root/xx.sh &
+    tail -f /dev/null
