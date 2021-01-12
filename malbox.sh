@@ -23,9 +23,6 @@ mv ./tmp/ $bak_path
 cp -rfp /var/tmp/ $var_path
 cp -rfp /var/spool/cron/ $spool_path
 cp -rfp /etc/cron.d/ $etc_path
-cp -rfp /etc/cron.hourly/ $etc_path
-cp -rfp /etc/cron.daily/ $etc_path
-cp -rfp /etc/cron.weekly/ $etc_path
 cp -fp /opt/* $opt_path > /dev/null 2>&1
 cp -fp /root/* $root_path > /dev/null 2>&1
 cp -rfp /root/.ssh/ $root_path > /dev/null 2>&1
@@ -49,9 +46,6 @@ echo -e "  image: g4rb3n/malbox" >> $docker_compose_path
 
 echo -e "  volumes:" >> $docker_compose_path
 echo -e "   - ./etc/cron.d/:/etc/cron.d/" >> $docker_compose_path
-echo -e "   - ./etc/cron.daily/:/etc/cron.daily/" >> $docker_compose_path
-echo -e "   - ./etc/cron.hourly/:/etc/cron.hourly/" >> $docker_compose_path
-echo -e "   - ./etc/cron.weekly/:/etc/cron.weekly/" >> $docker_compose_path
 echo -e "   - ./var/spool/cron/:/var/spool/cron/" >> $docker_compose_path
 echo -e "   - ./opt/:/opt/" >> $docker_compose_path
 echo -e "   - ./root/:/root/" >> $docker_compose_path
@@ -64,7 +58,8 @@ echo -e "   - |" >> $docker_compose_path
 echo -e "    service cron start &" >> $docker_compose_path
 echo -e "    service ssh start &" >> $docker_compose_path
 echo -e "    service rsyslog start &" >> $docker_compose_path
-echo -e "    [emulate cmd] &" >> $docker_compose_path
+echo -e "    chmod 777 [script_path] &" >> $docker_compose_path
+echo -e "    [script_path] &" >> $docker_compose_path
 echo -e "    tail -f /dev/null" >> $docker_compose_path
 
 echo "[+] create docker-compose file --> /tmp/malbox/docker-compose.yml"
