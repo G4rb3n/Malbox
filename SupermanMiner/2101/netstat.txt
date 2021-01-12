@@ -1,0 +1,17 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      2140/sshd: /usr/sbi 
+tcp        0      0 127.0.0.1:65505         0.0.0.0:*               LISTEN      2910/./superman     
+tcp        0      0 127.0.0.1:65506         0.0.0.0:*               LISTEN      148159/sshd -D      
+tcp        0      0 127.0.0.1:57164         127.0.0.1:65506         TIME_WAIT   -                   
+tcp        0      0 192.168.0.102:42708     54.37.7.208:443         ESTABLISHED 26010/              
+tcp        1      0 127.0.0.1:65505         127.0.0.1:34988         CLOSE_WAIT  2910/./superman     
+tcp        0      0 127.0.0.1:34976         127.0.0.1:65505         TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:57160         127.0.0.1:65506         TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:57152         127.0.0.1:65506         TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:57166         127.0.0.1:65506         FIN_WAIT2   -                   
+tcp        0      0 127.0.0.1:34988         127.0.0.1:65505         FIN_WAIT2   -                   
+tcp        0      0 192.168.0.102:32834     188.164.131.200:80      ESTABLISHED 148159/sshd -D      
+tcp        0      0 127.0.0.1:57156         127.0.0.1:65506         TIME_WAIT   -                   
+tcp        1      0 127.0.0.1:65506         127.0.0.1:57166         CLOSE_WAIT  148159/sshd -D      
+tcp6       0      0 :::22                   :::*                    LISTEN      2140/sshd: /usr/sbi 

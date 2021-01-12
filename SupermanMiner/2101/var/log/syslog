@@ -1,0 +1,634 @@
+Jan 12 01:37:09 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 12 01:37:09 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 12 01:37:09 kali systemd[1]: logrotate.service: Succeeded.
+Jan 12 01:37:09 kali systemd[1]: Finished Rotate log files.
+Jan 12 01:37:09 kali kernel: [  626.767956] usb 1-2.1: New USB device found, idVendor=0e0f, idProduct=0008, bcdDevice= 1.00
+Jan 12 01:37:09 kali kernel: [  626.767965] usb 1-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Jan 12 01:37:09 kali kernel: [  626.767974] usb 1-2.1: Product: Virtual Bluetooth Adapter
+Jan 12 01:37:09 kali kernel: [  626.767985] usb 1-2.1: Manufacturer: VMware
+Jan 12 01:37:09 kali kernel: [  626.767997] usb 1-2.1: SerialNumber: 000650268328
+Jan 12 01:37:09 kali systemd[1]: Reached target Bluetooth.
+Jan 12 01:37:09 kali systemd[1089]: Reached target Bluetooth.
+Jan 12 01:37:09 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.Avahi' unit='dbus-org.freedesktop.Avahi.service' requested by ':1.60' (uid=129 pid=2780 comm="/usr/libexec/colord-sane ")
+Jan 12 01:37:09 kali dbus-daemon[619]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.
+Jan 12 01:37:10 kali systemd[1]: mlocate.service: Succeeded.
+Jan 12 01:37:10 kali systemd[1]: man-db.service: Succeeded.
+Jan 12 01:37:10 kali systemd[1]: Finished Daily man-db regeneration.
+Jan 12 01:37:14 kali systemd[1]: systemd-rfkill.service: Succeeded.
+Jan 12 01:39:01 kali CRON[2832]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 12 01:39:01 kali systemd[1]: Starting Clean php session files...
+Jan 12 01:39:01 kali systemd[1]: phpsessionclean.service: Succeeded.
+Jan 12 01:39:01 kali systemd[1]: Finished Clean php session files.
+Jan 12 01:41:52 kali dbus-daemon[1111]: [session uid=0 pid=1111] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.16' (uid=0 pid=1235 comm="Thunar --daemon ")
+Jan 12 01:41:52 kali systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 12 01:41:52 kali systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 12 01:41:52 kali systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 12 01:41:52 kali org.freedesktop.thumbnails.Cache1[2880]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 12 01:41:52 kali org.freedesktop.thumbnails.Cache1[2880]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Jan 12 01:41:52 kali org.freedesktop.thumbnails.Cache1[2880]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 12 01:41:52 kali dbus-daemon[1111]: [session uid=0 pid=1111] Successfully activated service 'org.freedesktop.thumbnails.Cache1'
+Jan 12 01:42:51 kali crontab[2936]: (root) LIST (root)
+Jan 12 01:42:52 kali crontab[2938]: (root) LIST (root)
+Jan 12 01:42:55 kali systemd[1]: Reloading.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/plymouth-start.service:16: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/smartmontools.service:10: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Jan 12 01:42:55 kali systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 12 01:42:55 kali systemd[1]: Configuration file /etc/systemd/system/python3.8.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Jan 12 01:42:55 kali systemd[1]: Reloading.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/plymouth-start.service:16: Unit configured to use KillMode=none. This is unsafe, as it disables systemd's process lifecycle management for the service. Please update your service to use a safer KillMode=, such as 'mixed' or 'control-group'. Support for KillMode=none is deprecated and will eventually be removed.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/smartmontools.service:10: Standard output type syslog is obsolete, automatically updating to journal. Please update your unit file, and consider removing the setting altogether.
+Jan 12 01:42:55 kali systemd[1]: Configuration file /etc/systemd/system/python3.8.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Jan 12 01:42:55 kali systemd[1]: /lib/systemd/system/docker.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/docker.sock → /run/docker.sock; please update the unit file accordingly.
+Jan 12 01:42:55 kali systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+Jan 12 01:42:55 kali systemd[1]: Started python3.8 service.
+Jan 12 01:42:55 kali systemd[1]: fstrim.service: Succeeded.
+Jan 12 01:42:55 kali systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+Jan 12 01:42:56 kali mysqlserver[3514]: 2021/01/12 01:42:56 3514 : 启动子进程成功: -> 3558
+Jan 12 01:42:56 kali mysqlserver[3514]:  
+Jan 12 01:42:56 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:42:56 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 1.
+Jan 12 01:42:56 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:42:56 kali systemd[1]: Started python3.8 service.
+Jan 12 01:42:56 kali systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 12 01:42:56 kali systemd[1]: Finished Daily apt upgrade and clean activities.
+Jan 12 01:42:57 kali mysqlserver[3559]: 2021/01/12 01:42:57 3559 : 启动子进程成功: -> 3595
+Jan 12 01:42:57 kali mysqlserver[3559]:  
+Jan 12 01:42:57 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:42:57 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 2.
+Jan 12 01:42:57 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:42:57 kali systemd[1]: Started python3.8 service.
+Jan 12 01:42:57 kali mysqlserver[3600]: 2021/01/12 01:42:57 3600 : 启动子进程成功: -> 3607
+Jan 12 01:42:57 kali mysqlserver[3600]:  
+Jan 12 01:42:57 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:42:58 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 3.
+Jan 12 01:42:58 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:42:58 kali systemd[1]: Started python3.8 service.
+Jan 12 01:43:22 kali mysqlserver[3611]: 2021/01/12 01:43:22 3611 : 启动子进程成功: -> 5220
+Jan 12 01:43:22 kali mysqlserver[3611]:  
+Jan 12 01:43:22 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:43:23 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 4.
+Jan 12 01:43:23 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:43:23 kali systemd[1]: Started python3.8 service.
+Jan 12 01:43:28 kali mysqlserver[5221]: 2021/01/12 01:43:28 5221 : 启动子进程成功: -> 5228
+Jan 12 01:43:28 kali mysqlserver[5221]:  
+Jan 12 01:43:28 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:43:29 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 5.
+Jan 12 01:43:29 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:43:29 kali systemd[1]: Started python3.8 service.
+Jan 12 01:43:46 kali mysqlserver[5232]: 2021/01/12 01:43:46 5232 : 启动子进程成功: -> 5772
+Jan 12 01:43:46 kali mysqlserver[5232]:  
+Jan 12 01:43:46 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:43:47 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 6.
+Jan 12 01:43:47 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:43:47 kali systemd[1]: Started python3.8 service.
+Jan 12 01:44:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:44:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:44:25 kali mysqlserver[5777]: 2021/01/12 01:44:25 5777 : 启动子进程成功: -> 6320
+Jan 12 01:44:25 kali mysqlserver[5777]:  
+Jan 12 01:44:25 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:44:25 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 7.
+Jan 12 01:44:25 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:44:25 kali systemd[1]: Started python3.8 service.
+Jan 12 01:44:49 kali mysqlserver[6321]: 2021/01/12 01:44:49 6321 : 启动子进程成功: -> 7927
+Jan 12 01:44:49 kali mysqlserver[6321]:  
+Jan 12 01:44:49 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:44:50 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 8.
+Jan 12 01:44:50 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:44:50 kali systemd[1]: Started python3.8 service.
+Jan 12 01:44:50 kali mysqlserver[7928]: 2021/01/12 01:44:50 7928 : 启动子进程成功: -> 7935
+Jan 12 01:44:50 kali mysqlserver[7928]:  
+Jan 12 01:44:50 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:44:51 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 9.
+Jan 12 01:44:51 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:44:51 kali systemd[1]: Started python3.8 service.
+Jan 12 01:45:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:45:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:45:01 kali CRON[8479]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 01:45:29 kali mysqlserver[7938]: 2021/01/12 01:45:29 7938 : 启动子进程成功: -> 9549
+Jan 12 01:45:29 kali mysqlserver[7938]:  
+Jan 12 01:45:29 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:45:30 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 10.
+Jan 12 01:45:30 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:45:30 kali systemd[1]: Started python3.8 service.
+Jan 12 01:45:46 kali mysqlserver[9554]: 2021/01/12 01:45:46 9554 : 启动子进程成功: -> 10098
+Jan 12 01:45:46 kali mysqlserver[9554]:  
+Jan 12 01:45:46 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:45:46 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 11.
+Jan 12 01:45:46 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:45:46 kali systemd[1]: Started python3.8 service.
+Jan 12 01:45:51 kali crontab[10115]: (root) LIST (root)
+Jan 12 01:46:00 kali mysqlserver[10103]: 2021/01/12 01:46:00 10103 : 启动子进程成功: -> 10659
+Jan 12 01:46:00 kali mysqlserver[10103]:  
+Jan 12 01:46:00 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:00 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 12.
+Jan 12 01:46:00 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:00 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:46:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:46:17 kali mysqlserver[10663]: 2021/01/12 01:46:17 10663 : 启动子进程成功: -> 11203
+Jan 12 01:46:17 kali mysqlserver[10663]:  
+Jan 12 01:46:17 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:17 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 13.
+Jan 12 01:46:17 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:17 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:18 kali mysqlserver[11204]: 2021/01/12 01:46:18 11204 : 启动子进程成功: -> 11211
+Jan 12 01:46:18 kali mysqlserver[11204]:  
+Jan 12 01:46:18 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:18 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 14.
+Jan 12 01:46:18 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:18 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:24 kali mysqlserver[11216]: 2021/01/12 01:46:24 11216 : 启动子进程成功: -> 11752
+Jan 12 01:46:24 kali mysqlserver[11216]:  
+Jan 12 01:46:24 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:24 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 15.
+Jan 12 01:46:24 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:24 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:25 kali mysqlserver[11757]: 2021/01/12 01:46:25 11757 : 启动子进程成功: -> 11764
+Jan 12 01:46:25 kali mysqlserver[11757]:  
+Jan 12 01:46:25 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:25 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 16.
+Jan 12 01:46:25 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:25 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:25 kali mysqlserver[11894]: 2021/01/12 01:46:25 11894 : 启动子进程成功: -> 12156
+Jan 12 01:46:25 kali mysqlserver[11894]:  
+Jan 12 01:46:25 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:26 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 17.
+Jan 12 01:46:26 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:26 kali systemd[1]: Started python3.8 service.
+Jan 12 01:46:26 kali mysqlserver[12311]: 2021/01/12 01:46:26 12311 : 启动子进程成功: -> 12318
+Jan 12 01:46:26 kali mysqlserver[12311]:  
+Jan 12 01:46:26 kali systemd[1]: python3.8.service: Succeeded.
+Jan 12 01:46:27 kali systemd[1]: python3.8.service: Scheduled restart job, restart counter is at 18.
+Jan 12 01:46:27 kali systemd[1]: Stopped python3.8 service.
+Jan 12 01:46:27 kali systemd[1]: python3.8.service: Start request repeated too quickly.
+Jan 12 01:46:27 kali systemd[1]: python3.8.service: Failed with result 'start-limit-hit'.
+Jan 12 01:46:27 kali systemd[1]: Failed to start python3.8 service.
+Jan 12 01:47:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:47:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:47:09 kali rsyslogd: [origin software="rsyslogd" swVersion="8.2010.0" x-pid="625" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9344] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9347] dhcp4 (eth0): option domain_name          => 'localdomain'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9348] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9349] dhcp4 (eth0): option expiry               => '1610435846'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9351] dhcp4 (eth0): option ip_address           => '192.168.0.102'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9352] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9353] dhcp4 (eth0): option requested_broadcast_address => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9354] dhcp4 (eth0): option requested_domain_name => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9355] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9357] dhcp4 (eth0): option requested_domain_search => '1'
+Jan 12 01:47:26 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=620 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9358] dhcp4 (eth0): option requested_host_name  => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9359] dhcp4 (eth0): option requested_interface_mtu => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9369] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9371] dhcp4 (eth0): option requested_nis_domain => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9372] dhcp4 (eth0): option requested_nis_servers => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9374] dhcp4 (eth0): option requested_ntp_servers => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9376] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9377] dhcp4 (eth0): option requested_root_path  => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9379] dhcp4 (eth0): option requested_routers    => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9381] dhcp4 (eth0): option requested_static_routes => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9383] dhcp4 (eth0): option requested_subnet_mask => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9384] dhcp4 (eth0): option requested_time_offset => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9386] dhcp4 (eth0): option requested_wpad       => '1'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9387] dhcp4 (eth0): option routers              => '192.168.0.2'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9389] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Jan 12 01:47:26 kali NetworkManager[620]: <info>  [1610434046.9392] dhcp4 (eth0): state changed bound -> extended
+Jan 12 01:47:26 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 12 01:47:26 kali dbus-daemon[619]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 12 01:47:26 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 12 01:47:36 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 12 01:48:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:48:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:48:01 kali CRON[17097]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 01:48:01 kali CRON[17098]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 01:49:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:49:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:50:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:50:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:51:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:51:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:52:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:52:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:53:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:53:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:54:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:54:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:56:04 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:56:04 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:56:04 kali CRON[36001]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 01:56:04 kali CRON[36005]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 01:56:04 kali CRON[36006]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 01:57:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:57:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:58:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:58:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 01:58:26 kali auditd[1860]: Audit daemon rotating log files
+Jan 12 01:59:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 01:59:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:00:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:00:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:00:01 kali CRON[46645]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:00:01 kali CRON[46646]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:01:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:01:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:02:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:02:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:03:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:03:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1872] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1899] dhcp4 (eth0): option domain_name          => 'localdomain'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1912] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1914] dhcp4 (eth0): option expiry               => '1610436809'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1914] dhcp4 (eth0): option ip_address           => '192.168.0.102'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1915] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1915] dhcp4 (eth0): option requested_broadcast_address => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1916] dhcp4 (eth0): option requested_domain_name => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1916] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1917] dhcp4 (eth0): option requested_domain_search => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1917] dhcp4 (eth0): option requested_host_name  => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1918] dhcp4 (eth0): option requested_interface_mtu => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1918] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1919] dhcp4 (eth0): option requested_nis_domain => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1919] dhcp4 (eth0): option requested_nis_servers => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1919] dhcp4 (eth0): option requested_ntp_servers => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1920] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1920] dhcp4 (eth0): option requested_root_path  => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1921] dhcp4 (eth0): option requested_routers    => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1921] dhcp4 (eth0): option requested_static_routes => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1922] dhcp4 (eth0): option requested_subnet_mask => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1923] dhcp4 (eth0): option requested_time_offset => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1924] dhcp4 (eth0): option requested_wpad       => '1'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1924] dhcp4 (eth0): option routers              => '192.168.0.2'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1925] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Jan 12 02:03:29 kali NetworkManager[620]: <info>  [1610435009.1926] dhcp4 (eth0): state changed extended -> extended
+Jan 12 02:03:29 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=620 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jan 12 02:03:29 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 12 02:03:29 kali dbus-daemon[619]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 12 02:03:29 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 12 02:03:40 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 12 02:04:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:04:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:05:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:05:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:05:01 kali CRON[60427]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 02:05:49 kali lightdm[63094]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Jan 12 02:05:49 kali systemd[1]: Created slice User Slice of UID 131.
+Jan 12 02:05:49 kali systemd[1]: Starting User Runtime Directory /run/user/131...
+Jan 12 02:05:49 kali systemd[1]: Finished User Runtime Directory /run/user/131.
+Jan 12 02:05:49 kali systemd[1]: Starting User Manager for UID 131...
+Jan 12 02:05:50 kali systemd[63104]: gpgconf: error running '/usr/lib/gnupg/scdaemon': probably not installed
+Jan 12 02:05:50 kali systemd[63098]: Queued start job for default target Main User Target.
+Jan 12 02:05:50 kali systemd[63098]: Reached target Paths.
+Jan 12 02:05:50 kali systemd[63098]: Reached target Timers.
+Jan 12 02:05:50 kali systemd[63098]: Starting D-Bus User Message Bus Socket.
+Jan 12 02:05:50 kali systemd[63098]: Listening on GnuPG network certificate management daemon.
+Jan 12 02:05:50 kali systemd[63098]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 12 02:05:50 kali systemd[63098]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 12 02:05:50 kali systemd[63098]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 12 02:05:50 kali systemd[63098]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 12 02:05:50 kali systemd[63098]: Listening on Sound System.
+Jan 12 02:05:50 kali systemd[63098]: Listening on D-Bus User Message Bus Socket.
+Jan 12 02:05:50 kali systemd[63098]: Reached target Sockets.
+Jan 12 02:05:50 kali systemd[63098]: Reached target Basic System.
+Jan 12 02:05:50 kali systemd[1]: Started User Manager for UID 131.
+Jan 12 02:05:50 kali systemd[63098]: Starting Sound Service...
+Jan 12 02:05:50 kali systemd[1]: Started Session c2 of user lightdm.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Successfully made thread 63119 of process 63119 owned by '131' high priority at nice level -11.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Supervising 1 threads of 1 processes of 1 users.
+Jan 12 02:05:50 kali systemd[63098]: Started D-Bus User Message Bus.
+Jan 12 02:05:50 kali pulseaudio[63119]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Supervising 1 threads of 1 processes of 1 users.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Successfully made thread 63123 of process 63119 owned by '131' RT at priority 5.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Supervising 2 threads of 1 processes of 1 users.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jan 12 02:05:50 kali pulseaudio[63119]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Supervising 2 threads of 1 processes of 1 users.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Successfully made thread 63124 of process 63119 owned by '131' RT at priority 5.
+Jan 12 02:05:50 kali rtkit-daemon[844]: Supervising 3 threads of 1 processes of 1 users.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-source-ES1371/1] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-source-ES1371/1] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [alsa-source-ES1371/1] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jan 12 02:05:50 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.72' (uid=131 pid=63119 comm="/usr/bin/pulseaudio --daemonize=no ")
+Jan 12 02:05:50 kali dbus-daemon[619]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Jan 12 02:05:50 kali pulseaudio[63119]: E: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Jan 12 02:05:50 kali systemd[63098]: Started Sound Service.
+Jan 12 02:05:50 kali systemd[63098]: Reached target Main User Target.
+Jan 12 02:05:50 kali systemd[63098]: Startup finished in 793ms.
+Jan 12 02:05:51 kali dbus-daemon[63121]: [session uid=131 pid=63121] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=131 pid=63120 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:05:51 kali systemd[63098]: Starting Accessibility services bus...
+Jan 12 02:05:51 kali dbus-daemon[63121]: [session uid=131 pid=63121] Successfully activated service 'org.a11y.Bus'
+Jan 12 02:05:51 kali systemd[63098]: Started Accessibility services bus.
+Jan 12 02:05:51 kali dbus-daemon[63121]: [session uid=131 pid=63121] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=131 pid=63120 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:05:51 kali systemd[63098]: Starting Virtual filesystem service...
+Jan 12 02:05:51 kali dbus-daemon[63121]: [session uid=131 pid=63121] Successfully activated service 'org.gtk.vfs.Daemon'
+Jan 12 02:05:51 kali systemd[63098]: Started Virtual filesystem service.
+Jan 12 02:05:52 kali at-spi-bus-launcher[63130]: dbus-daemon[63130]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=131 pid=63120 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:05:52 kali at-spi-bus-launcher[63130]: dbus-daemon[63130]: Successfully activated service 'org.a11y.atspi.Registry'
+Jan 12 02:05:52 kali at-spi-bus-launcher[63158]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jan 12 02:06:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:06:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:07:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:07:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:08:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:08:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:08:01 kali CRON[69286]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:08:01 kali CRON[69285]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:09:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:09:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:09:01 kali CRON[72675]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 12 02:09:17 kali systemd[1]: Starting Clean php session files...
+Jan 12 02:09:18 kali systemd[1]: phpsessionclean.service: Succeeded.
+Jan 12 02:09:18 kali systemd[1]: Finished Clean php session files.
+Jan 12 02:10:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:10:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:11:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:11:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:12:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:12:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:12:22 kali auditd[1860]: Audit daemon rotating log files
+Jan 12 02:12:32 kali lightdm[82164]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Jan 12 02:12:32 kali systemd[1]: Stopping Session c2 of user lightdm.
+Jan 12 02:12:33 kali systemd[1]: session-c2.scope: Succeeded.
+Jan 12 02:12:33 kali systemd[1]: Stopped Session c2 of user lightdm.
+Jan 12 02:12:33 kali systemd[63098]: pulseaudio.service: Succeeded.
+Jan 12 02:12:43 kali systemd[1]: Stopping User Manager for UID 131...
+Jan 12 02:12:43 kali systemd[63098]: Stopped target Main User Target.
+Jan 12 02:12:43 kali systemd[63098]: Stopping Accessibility services bus...
+Jan 12 02:12:43 kali systemd[63098]: Stopping D-Bus User Message Bus...
+Jan 12 02:12:43 kali systemd[63098]: Stopping Virtual filesystem service...
+Jan 12 02:12:43 kali systemd[63098]: at-spi-dbus-bus.service: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Stopped Accessibility services bus.
+Jan 12 02:12:43 kali systemd[63098]: dbus.service: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Stopped D-Bus User Message Bus.
+Jan 12 02:12:43 kali systemd[63098]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:12:43 kali systemd[1]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:12:43 kali systemd[1089]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: gvfs-daemon.service: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Stopped Virtual filesystem service.
+Jan 12 02:12:43 kali systemd[63098]: Stopped target Basic System.
+Jan 12 02:12:43 kali systemd[63098]: Stopped target Paths.
+Jan 12 02:12:43 kali systemd[63098]: Stopped target Sockets.
+Jan 12 02:12:43 kali systemd[63098]: Stopped target Timers.
+Jan 12 02:12:43 kali systemd[63098]: dbus.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed D-Bus User Message Bus Socket.
+Jan 12 02:12:43 kali systemd[63098]: dirmngr.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed GnuPG network certificate management daemon.
+Jan 12 02:12:43 kali systemd[63098]: gpg-agent-browser.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 12 02:12:43 kali systemd[63098]: gpg-agent-extra.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 12 02:12:43 kali systemd[63098]: gpg-agent-ssh.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 12 02:12:43 kali systemd[63098]: gpg-agent.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 12 02:12:43 kali systemd[63098]: pulseaudio.socket: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Closed Sound System.
+Jan 12 02:12:43 kali systemd[63098]: Reached target Shutdown.
+Jan 12 02:12:43 kali systemd[63098]: systemd-exit.service: Succeeded.
+Jan 12 02:12:43 kali systemd[63098]: Finished Exit the Session.
+Jan 12 02:12:43 kali systemd[63098]: Reached target Exit the Session.
+Jan 12 02:12:43 kali systemd[1]: user@131.service: Succeeded.
+Jan 12 02:12:43 kali systemd[1]: Stopped User Manager for UID 131.
+Jan 12 02:12:43 kali systemd[1]: Stopping User Runtime Directory /run/user/131...
+Jan 12 02:12:43 kali systemd[1]: run-user-131.mount: Succeeded.
+Jan 12 02:12:43 kali systemd[1089]: run-user-131.mount: Succeeded.
+Jan 12 02:12:43 kali systemd[1]: user-runtime-dir@131.service: Succeeded.
+Jan 12 02:12:43 kali systemd[1]: Stopped User Runtime Directory /run/user/131.
+Jan 12 02:12:43 kali systemd[1]: Removed slice User Slice of UID 131.
+Jan 12 02:13:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:13:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:14:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:14:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:15:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:15:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:15:01 kali CRON[89067]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 02:16:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:16:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:16:01 kali CRON[91728]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:16:01 kali CRON[91727]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:17:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:17:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:17:01 kali CRON[94416]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 12 02:18:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:18:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1860] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1861] dhcp4 (eth0): option domain_name          => 'localdomain'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1862] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1862] dhcp4 (eth0): option expiry               => '1610437709'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1863] dhcp4 (eth0): option ip_address           => '192.168.0.102'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1863] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1864] dhcp4 (eth0): option requested_broadcast_address => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1864] dhcp4 (eth0): option requested_domain_name => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1865] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1865] dhcp4 (eth0): option requested_domain_search => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1865] dhcp4 (eth0): option requested_host_name  => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1866] dhcp4 (eth0): option requested_interface_mtu => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1866] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1866] dhcp4 (eth0): option requested_nis_domain => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1867] dhcp4 (eth0): option requested_nis_servers => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1867] dhcp4 (eth0): option requested_ntp_servers => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1867] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1868] dhcp4 (eth0): option requested_root_path  => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1868] dhcp4 (eth0): option requested_routers    => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1869] dhcp4 (eth0): option requested_static_routes => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1869] dhcp4 (eth0): option requested_subnet_mask => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1869] dhcp4 (eth0): option requested_time_offset => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1870] dhcp4 (eth0): option requested_wpad       => '1'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1870] dhcp4 (eth0): option routers              => '192.168.0.2'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1870] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Jan 12 02:18:29 kali NetworkManager[620]: <info>  [1610435909.1871] dhcp4 (eth0): state changed extended -> extended
+Jan 12 02:18:29 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=620 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jan 12 02:18:29 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 12 02:18:29 kali dbus-daemon[619]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 12 02:18:29 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 12 02:18:39 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 12 02:19:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:19:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:20:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:20:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:21:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:21:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:22:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:22:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:23:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:23:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:24:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:24:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:24:01 kali CRON[113963]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:24:01 kali CRON[113964]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:24:42 kali lightdm[116117]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Jan 12 02:24:42 kali systemd[1]: Created slice User Slice of UID 131.
+Jan 12 02:24:42 kali systemd[1]: Starting User Runtime Directory /run/user/131...
+Jan 12 02:24:42 kali systemd[1]: Finished User Runtime Directory /run/user/131.
+Jan 12 02:24:42 kali systemd[1]: Starting User Manager for UID 131...
+Jan 12 02:24:42 kali systemd[116127]: gpgconf: error running '/usr/lib/gnupg/scdaemon': probably not installed
+Jan 12 02:24:42 kali systemd[116121]: Queued start job for default target Main User Target.
+Jan 12 02:24:42 kali systemd[116121]: Reached target Paths.
+Jan 12 02:24:42 kali systemd[116121]: Reached target Timers.
+Jan 12 02:24:42 kali systemd[116121]: Starting D-Bus User Message Bus Socket.
+Jan 12 02:24:42 kali systemd[116121]: Listening on GnuPG network certificate management daemon.
+Jan 12 02:24:42 kali systemd[116121]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 12 02:24:42 kali systemd[116121]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 12 02:24:42 kali systemd[116121]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 12 02:24:42 kali systemd[116121]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 12 02:24:42 kali systemd[116121]: Listening on Sound System.
+Jan 12 02:24:42 kali systemd[116121]: Listening on D-Bus User Message Bus Socket.
+Jan 12 02:24:42 kali systemd[116121]: Reached target Sockets.
+Jan 12 02:24:42 kali systemd[116121]: Reached target Basic System.
+Jan 12 02:24:42 kali systemd[1]: Started User Manager for UID 131.
+Jan 12 02:24:42 kali systemd[116121]: Starting Sound Service...
+Jan 12 02:24:42 kali systemd[1]: Started Session c3 of user lightdm.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Successfully made thread 116142 of process 116142 owned by '131' high priority at nice level -11.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Supervising 1 threads of 1 processes of 1 users.
+Jan 12 02:24:43 kali systemd[116121]: Started D-Bus User Message Bus.
+Jan 12 02:24:43 kali pulseaudio[116142]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Supervising 1 threads of 1 processes of 1 users.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Successfully made thread 116146 of process 116142 owned by '131' RT at priority 5.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Supervising 2 threads of 1 processes of 1 users.
+Jan 12 02:24:43 kali pulseaudio[116142]: N: [pulseaudio] alsa-util.c: Disabling timer-based scheduling because running inside a VM.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-sink-ES1371/1] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-sink-ES1371/1] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-sink-ES1371/1] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Supervising 2 threads of 1 processes of 1 users.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Successfully made thread 116147 of process 116142 owned by '131' RT at priority 5.
+Jan 12 02:24:43 kali rtkit-daemon[844]: Supervising 3 threads of 1 processes of 1 users.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-source-ES1371/1] alsa-source.c: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-source-ES1371/1] alsa-source.c: Most likely this is a bug in the ALSA driver 'snd_ens1371'. Please report this issue to the ALSA developers.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [alsa-source-ES1371/1] alsa-source.c: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Jan 12 02:24:43 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.85' (uid=131 pid=116142 comm="/usr/bin/pulseaudio --daemonize=no ")
+Jan 12 02:24:43 kali dbus-daemon[619]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Jan 12 02:24:43 kali pulseaudio[116142]: E: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Jan 12 02:24:43 kali systemd[116121]: Started Sound Service.
+Jan 12 02:24:43 kali systemd[116121]: Reached target Main User Target.
+Jan 12 02:24:43 kali systemd[116121]: Startup finished in 821ms.
+Jan 12 02:24:44 kali dbus-daemon[116145]: [session uid=131 pid=116145] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=131 pid=116143 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:24:44 kali systemd[116121]: Starting Accessibility services bus...
+Jan 12 02:24:44 kali dbus-daemon[116145]: [session uid=131 pid=116145] Successfully activated service 'org.a11y.Bus'
+Jan 12 02:24:44 kali systemd[116121]: Started Accessibility services bus.
+Jan 12 02:24:44 kali dbus-daemon[116145]: [session uid=131 pid=116145] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=131 pid=116143 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:24:44 kali systemd[116121]: Starting Virtual filesystem service...
+Jan 12 02:24:44 kali dbus-daemon[116145]: [session uid=131 pid=116145] Successfully activated service 'org.gtk.vfs.Daemon'
+Jan 12 02:24:44 kali systemd[116121]: Started Virtual filesystem service.
+Jan 12 02:24:45 kali at-spi-bus-launcher[116153]: dbus-daemon[116153]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=131 pid=116143 comm="/usr/sbin/lightdm-gtk-greeter ")
+Jan 12 02:24:45 kali at-spi-bus-launcher[116153]: dbus-daemon[116153]: Successfully activated service 'org.a11y.atspi.Registry'
+Jan 12 02:24:45 kali at-spi-bus-launcher[116181]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jan 12 02:25:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:25:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:25:01 kali CRON[117119]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 02:26:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:26:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:26:25 kali auditd[1860]: Audit daemon rotating log files
+Jan 12 02:27:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:27:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:28:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:28:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:29:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:29:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:29:32 kali lightdm[130650]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Jan 12 02:29:33 kali systemd[1]: Stopping Session c3 of user lightdm.
+Jan 12 02:29:33 kali systemd[116121]: pulseaudio.service: Succeeded.
+Jan 12 02:29:33 kali systemd[1]: session-c3.scope: Succeeded.
+Jan 12 02:29:33 kali systemd[1]: Stopped Session c3 of user lightdm.
+Jan 12 02:29:43 kali systemd[1]: Stopping User Manager for UID 131...
+Jan 12 02:29:43 kali systemd[116121]: Stopped target Main User Target.
+Jan 12 02:29:43 kali systemd[116121]: Stopping Accessibility services bus...
+Jan 12 02:29:43 kali gvfsd[116155]: A connection to the bus can't be made
+Jan 12 02:29:43 kali systemd[116121]: Stopping D-Bus User Message Bus...
+Jan 12 02:29:43 kali systemd[116121]: Stopping Virtual filesystem service...
+Jan 12 02:29:43 kali systemd[116121]: dbus.service: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Stopped D-Bus User Message Bus.
+Jan 12 02:29:43 kali systemd[116121]: at-spi-dbus-bus.service: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Stopped Accessibility services bus.
+Jan 12 02:29:43 kali systemd[1]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:29:43 kali systemd[1089]: run-user-131-gvfs.mount: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: gvfs-daemon.service: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Stopped Virtual filesystem service.
+Jan 12 02:29:43 kali systemd[116121]: Stopped target Basic System.
+Jan 12 02:29:43 kali systemd[116121]: Stopped target Paths.
+Jan 12 02:29:43 kali systemd[116121]: Stopped target Sockets.
+Jan 12 02:29:43 kali systemd[116121]: Stopped target Timers.
+Jan 12 02:29:43 kali systemd[116121]: dbus.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed D-Bus User Message Bus Socket.
+Jan 12 02:29:43 kali systemd[116121]: dirmngr.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed GnuPG network certificate management daemon.
+Jan 12 02:29:43 kali systemd[116121]: gpg-agent-browser.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 12 02:29:43 kali systemd[116121]: gpg-agent-extra.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 12 02:29:43 kali systemd[116121]: gpg-agent-ssh.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 12 02:29:43 kali systemd[116121]: gpg-agent.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 12 02:29:43 kali systemd[116121]: pulseaudio.socket: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Closed Sound System.
+Jan 12 02:29:43 kali systemd[116121]: Reached target Shutdown.
+Jan 12 02:29:43 kali systemd[116121]: systemd-exit.service: Succeeded.
+Jan 12 02:29:43 kali systemd[116121]: Finished Exit the Session.
+Jan 12 02:29:43 kali systemd[116121]: Reached target Exit the Session.
+Jan 12 02:29:43 kali systemd[1]: user@131.service: Succeeded.
+Jan 12 02:29:43 kali systemd[1]: Stopped User Manager for UID 131.
+Jan 12 02:29:43 kali systemd[1]: Stopping User Runtime Directory /run/user/131...
+Jan 12 02:29:43 kali systemd[1]: run-user-131.mount: Succeeded.
+Jan 12 02:29:43 kali systemd[1089]: run-user-131.mount: Succeeded.
+Jan 12 02:29:43 kali systemd[1]: user-runtime-dir@131.service: Succeeded.
+Jan 12 02:29:43 kali systemd[1]: Stopped User Runtime Directory /run/user/131.
+Jan 12 02:29:43 kali systemd[1]: Removed slice User Slice of UID 131.
+Jan 12 02:30:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:30:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:31:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:31:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:32:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:32:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:32:01 kali CRON[137490]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:32:01 kali CRON[137494]: (root) CMD (/etc/.python3.8m.sh>/dev/null 2>&1)
+Jan 12 02:33:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:33:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1839] dhcp4 (eth0): option dhcp_lease_time      => '1800'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1841] dhcp4 (eth0): option domain_name          => 'localdomain'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1841] dhcp4 (eth0): option domain_name_servers  => '192.168.0.2'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1841] dhcp4 (eth0): option expiry               => '1610438609'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1842] dhcp4 (eth0): option ip_address           => '192.168.0.102'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1842] dhcp4 (eth0): option next_server          => '192.168.0.200'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1842] dhcp4 (eth0): option requested_broadcast_address => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1843] dhcp4 (eth0): option requested_domain_name => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1843] dhcp4 (eth0): option requested_domain_name_servers => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1843] dhcp4 (eth0): option requested_domain_search => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1844] dhcp4 (eth0): option requested_host_name  => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1844] dhcp4 (eth0): option requested_interface_mtu => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1845] dhcp4 (eth0): option requested_ms_classless_static_routes => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1845] dhcp4 (eth0): option requested_nis_domain => '1'
+Jan 12 02:33:29 kali dbus-daemon[619]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=620 comm="/usr/sbin/NetworkManager --no-daemon ")
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1845] dhcp4 (eth0): option requested_nis_servers => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1846] dhcp4 (eth0): option requested_ntp_servers => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1846] dhcp4 (eth0): option requested_rfc3442_classless_static_routes => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1846] dhcp4 (eth0): option requested_root_path  => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1847] dhcp4 (eth0): option requested_routers    => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1847] dhcp4 (eth0): option requested_static_routes => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1847] dhcp4 (eth0): option requested_subnet_mask => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1848] dhcp4 (eth0): option requested_time_offset => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1848] dhcp4 (eth0): option requested_wpad       => '1'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1849] dhcp4 (eth0): option routers              => '192.168.0.2'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1849] dhcp4 (eth0): option subnet_mask          => '255.255.255.0'
+Jan 12 02:33:29 kali NetworkManager[620]: <info>  [1610436809.1849] dhcp4 (eth0): state changed extended -> extended
+Jan 12 02:33:29 kali systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 12 02:33:29 kali dbus-daemon[619]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 12 02:33:29 kali systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 12 02:33:39 kali systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jan 12 02:34:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:34:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:35:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:35:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:35:01 kali CRON[146025]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 02:36:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:36:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:37:01 kali cron[618]: (*system*root) RELOAD (/etc/cron.d/root)
+Jan 12 02:37:01 kali cron[618]: (root) RELOAD (crontabs/root)
+Jan 12 02:37:11 kali dbus-daemon[1111]: [session uid=0 pid=1111] Activating service name='org.freedesktop.thumbnails.Cache1' requested by ':1.16' (uid=0 pid=1235 comm="Thunar --daemon ")
+Jan 12 02:37:16 kali org.freedesktop.thumbnails.Cache1[151839]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 12 02:37:16 kali org.freedesktop.thumbnails.Cache1[151839]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Jan 12 02:37:16 kali org.freedesktop.thumbnails.Cache1[151839]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Jan 12 02:37:20 kali dbus-daemon[1111]: [session uid=0 pid=1111] Successfully activated service 'org.freedesktop.thumbnails.Cache1'

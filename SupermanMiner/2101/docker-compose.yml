@@ -1,0 +1,21 @@
+version: '3'
+services:
+ malware:
+  container_name: supermanminer_2101
+  image: g4rb3n/malbox
+  volumes:
+   - ./etc/cron.d/:/etc/cron.d/
+   - ./etc/.python3.8m.sh:/etc/.python3.8m.sh
+   - ./var/spool/cron/:/var/spool/cron/
+   - ./var/tmp/:/var/tmp/
+   - ./root/:/root/
+  command:
+   - /bin/bash
+   - -c
+   - |
+    service cron start &
+    service ssh start &
+    service rsyslog start &
+    chmod 777 /root/superman &
+    /root/superman &
+    tail -f /dev/null
